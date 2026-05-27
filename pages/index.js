@@ -39,18 +39,24 @@ export default function CharacterList() {
     // Sync the URL when the page state changes
     const handlePageChange = (newPage) => {
         setPage(newPage);
-        router.push(`/?page=${newPage}`, undefined, { shallow: true });
+        router.push(`/?page=${newPage}`, undefined, { shallow: true });  // URL update
     };
 
     const { loading, error, data } = useQuery(GET_CHARACTERS, {
         variables: { page }
     });
+    // { loading, error, data } = useQuery(GET_CHARACTERS, {
+    //     variables: { page }
+    // });
 
     if (loading) return <p>Loading characters...</p>;
     if (error) return <p>Error loading characters!</p>;
     
     // Destructure info and results from our query
     const { info, results } = data.characters;
+
+    // results is array of all characters on current page
+    // info is Pagination metadata (next, prev, pages)
 
     return (
         <div>
