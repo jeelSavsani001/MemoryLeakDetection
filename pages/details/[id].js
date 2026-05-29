@@ -14,10 +14,11 @@ const GET_CHARACTER_DETAILS = gql`
     }
 `;
 
-// Module-level cache that grows - MEMORY LEAK
-const characterCache = {};
+let cachedCharacterData = null;
 
 export default function DetailsPage() {
+
+    //
     const router = useRouter();
     const { id } = router.query;
 
@@ -26,17 +27,12 @@ export default function DetailsPage() {
         skip: !id, // Skip the query until we have an ID
     });
 
+    if (data?.character) {
+        cachedCharacterData = data.character; // LEAK: Holds reference even after unmount
+    }
+
     if (loading) return <p>Loading character details...</p>;
     if (error) return <p>Error loading character details!</p>;
-
-    // Memory Leak introduced
-    if (data?.character) {
-        // Create heavy copy and store forever
-        characterCache[id] = {
-            ...data.character,
-            episodes: new Array(100000).fill("episode data"), // Simulate heavy data
-        };
-    }
 
     return (
         <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
