@@ -1,0 +1,36 @@
+{
+  "app": "default-app-for-scenario",
+  "type": "scenario",
+  "interaction": "",
+  "browserInfo": {
+    "_browserVersion": "Chrome/148.0.7778.178",
+    "_puppeteerConfig": {
+      "headless": true,
+      "devtools": false,
+      "protocolTimeout": 300000,
+      "ignoreHTTPSErrors": true,
+      "ignoreDefaultArgs": [
+        "--disable-extensions"
+      ],
+      "userDataDir": "/Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile",
+      "args": [
+        "--no-sandbox",
+        "--disable-notifications",
+        "--use-fake-ui-for-media-stream",
+        "--use-fake-device-for-media-stream",
+        "--js-flags=\"--no-move-object-start\"",
+        "--enable-precise-memory-info",
+        "--enable-webgl",
+        "browser-test"
+      ],
+      "defaultViewport": {
+        "width": 1680,
+        "height": 1080,
+        "deviceScaleFactor": 1
+      },
+      "executablePath": "/Users/jeel.savsani/.cache/puppeteer/chrome/mac-148.0.7778.178/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+    },
+    "_consoleMessages": []
+  },
+  "extraInfo": {}
+}

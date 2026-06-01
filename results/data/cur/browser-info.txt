@@ -1,0 +1,32 @@
+Web Console Output:
+[memlab]: [1/3] visiting page-load (baseline)
+[console.error]: Failed to load resource: the server responded with a status of 401 ()
+[console.log]: %c
+[console.log]: ▲
+[console.log]: 
+[console.log]:     ________   _ __ _          ____           __
+[console.log]:    /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+[console.log]:    / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+[console.log]:  _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+[console.log]: /___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+[console.log]:     _ __ _                         _    __                    __
+[console.log]:    (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+[console.log]:   / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+[console.log]:  / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+[console.log]: /_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+[console.log]:   
+[console.log]: 
+[console.log]: Hello!
+[console.log]: 
+[console.log]: - Open Source https://vercel.com/oss
+[console.log]: - Careers https://vercel.com/careers
+[console.log]: - Status https://vercel-status.com
+[console.log]: 
+[console.log]:  font-family: "Geist Mono", monospace; white-space: pre; line-height: 1;
+[console.warn]: [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment
+[console.error]: Not signed in with the identity provider.
+[console.error]: Failed to load resource: the server responded with a status of 403 ()
+[console.error]: [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.
+[console.error]: Failed to load resource: the server responded with a status of 429 ()
+[console.warn]: The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[console.warn]: The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "page-load",
+    "url": "https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/",
+    "interactions": [],
+    "snapshot": true,
+    "screenshot": true,
+    "type": "baseline",
+    "idx": 1
+  },
+  {
+    "name": "action-on-page",
+    "url": "https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/",
+    "interactions": [
+      null
+    ],
+    "snapshot": true,
+    "screenshot": true,
+    "type": "target",
+    "idx": 2
+  },
+  {
+    "name": "revert",
+    "url": "https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/",
+    "interactions": [
+      null
+    ],
+    "snapshot": true,
+    "screenshot": true,
+    "type": "final",
+    "idx": 3
+  }
+]
