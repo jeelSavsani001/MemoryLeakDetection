@@ -1,4 +1,3 @@
-export const config = { ssr: false };
 import { useRouter } from 'next/router';
 import { gql } from '@apollo/client';
 import { useQuery } from '@apollo/client/react';
