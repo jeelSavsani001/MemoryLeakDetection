@@ -48,6 +48,7 @@ export default function CharacterList() {
 
     if (loading) return <p>Loading characters...</p>;
     if (error) return <p>Error loading characters!</p>;
+    if (!data || !data.characters) return <p>No character data available.</p>;
     
     // Destructure info and results from our query
     const { info, results } = data.characters;
