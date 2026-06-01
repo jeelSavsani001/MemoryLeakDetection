@@ -1,0 +1,39 @@
+[
+  {
+    "name": "page-load",
+    "url": "http://localhost:3000",
+    "interactions": [],
+    "snapshot": true,
+    "screenshot": true,
+    "type": "baseline",
+    "idx": 1,
+    "JSHeapUsedSize": 5933572,
+    "metrics": {}
+  },
+  {
+    "name": "action-on-page",
+    "url": "http://localhost:3000",
+    "interactions": [
+      null
+    ],
+    "snapshot": true,
+    "screenshot": true,
+    "type": "target",
+    "idx": 2,
+    "JSHeapUsedSize": 7039628,
+    "metrics": {}
+  },
+  {
+    "name": "revert",
+    "url": "http://localhost:3000",
+    "interactions": [
+      null
+    ],
+    "snapshot": true,
+    "screenshot": true,
+    "type": "final",
+    "idx": 3,
+    "JSHeapUsedSize": 7274792,
+    "metrics": {}
+  }
+]

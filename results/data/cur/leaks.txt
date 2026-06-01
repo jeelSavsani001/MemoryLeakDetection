@@ -1,0 +1,33 @@
+page-load [6MB] (baseline) [s1] > action-on-page [7.1MB] (target) [s2] > revert [7.3MB] (final) [s3]  
+------2 clusters------
+
+--Similar leaks in this run: 675--
+--Retained size of leaked objects: 80.8KB--
+[(GC roots)] (synthetic) @3 [186.1KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [116.6KB]
+  --1 / DevTools console (internal)--->  [Detached <button data-testid="details-btn-1" style="cursor: pointer; padding: 8px 16px; background-... (native) @309705 [26.5KB]
+  --6 (element)--->  [Detached <div> (native) @387207 [25.7KB]
+  --8 (element)--->  [Detached <div> (native) @388415 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @388421 [1.2KB]
+  --8 (element)--->  [Detached <div> (native) @388393 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @388399 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @388405 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @387461 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @387473 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @382857 [1.1KB]
+  --4 (element)--->  [Detached <h3> (native) @387475 [872 bytes]
+  --7 (element)--->  [Detached <button data-testid="details-btn-9"> (native) @382855 [504 bytes]
+  --10 (element)--->  [Detached InternalNode] (native) @10532 [64 bytes]
+  --1 (element)--->  [Detached InternalNode] (native) @10534 [64 bytes]
+  --1 (element)--->  [Detached InternalNode] (native) @11562 [64 bytes]
+  --1 (element)--->  [Detached EventListener] (native) @12522 [64 bytes]
+  --1 (element)--->  [Detached V8EventHandlerNonNull] (native) @12018 [32 bytes]
+
+--Similar leaks in this run: 100--
+--Retained size of leaked objects: 16.8KB--
+[(GC roots)] (synthetic) @3 [186.1KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [116.6KB]
+  --89 / DevTools console (internal)--->  [Detached <h1> (native) @309717 [4.2KB]
+  --6 (element)--->  [Detached <div> (native) @393303 [288 bytes]
+  --6 (element)--->  [Detached InternalNode] (native) @11412 [56 bytes]
+  --1 (element)--->  [Detached CSSStyleDeclaration] (native) @12418 [56 bytes]

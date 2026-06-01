@@ -1,0 +1,30 @@
+MEMLAB LEAK REPORT
+Generated: 2026-06-01T11:56:46.735Z
+
+Leaked components: 3 (3 total instances)
+
+---
+
+[1] CharacterList
+    Instances : 1
+    Retained  : 1000 B
+    Hooks     : useContext, useState, useEffect, useContext, useContext, useContext, useRef, useState, useCallback, useSyncExternalStore, useMemo, useMemo
+    Source    : pages/index.js
+
+---
+
+[2] RouteAnnouncer
+    Instances : 1
+    Retained  : 520 B
+    Hooks     : useContext, useState, useRef, useEffect
+    Source    : not found in src/ (library or dynamic import)
+
+---
+
+[3] DetailsPage
+    Instances : 1
+    Retained  : 292 B
+    Hooks     : useContext, useContext, useContext, useContext, useRef, useState, useCallback, useSyncExternalStore, useMemo, useMemo, useEffect
+    Source    : pages/details/[id].js
+
+---

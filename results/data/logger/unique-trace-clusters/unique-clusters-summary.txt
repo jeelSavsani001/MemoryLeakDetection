@@ -1,0 +1,90 @@
+--------- cluster 1 ---------
+
+cluster: 309545
+
+[(GC roots)] (synthetic) @3 [212.5KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [143.1KB]
+  --6 / DevTools console (internal)--->  [Detached <button data-testid="details-btn-1" style="cursor: pointer; padding: 8px 16px; background-... (native) @309545 [504 bytes]
+  --6 (element)--->  [Detached <div> (native) @383447 [288 bytes]
+  --7 (element)--->  [Detached <div> (native) @375361 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @375373 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @375385 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @375397 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @377175 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @377187 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @377199 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @377211 [1.1KB]
+  --7 (element)--->  [Detached <div> (native) @377223 [1.1KB]
+  --9 (element)--->  [Detached InternalNode] (native) @11600 [56 bytes]
+  --1 (element)--->  [Detached CSSStyleDeclaration] (native) @11602 [56 bytes]
+
+
+--------- cluster 2 ---------
+
+cluster: 309543
+
+[(GC roots)] (synthetic) @3 [212.5KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [143.1KB]
+  --3 / DevTools console (internal)--->  [Detached <h1> (native) @309543 [4.2KB]
+  --4 (element)--->  [Detached Text] (native) @9528 [80 bytes]
+
+
+--------- cluster 3 ---------
+
+cluster: 309547
+
+[(GC roots)] (synthetic) @3 [212.5KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [143.1KB]
+  --7 / DevTools console (internal)--->  [Detached <button data-testid="details-btn-2" style="cursor: pointer; padding: 8px 16px; background-... (native) @309547 [504 bytes]
+  --6 (element)--->  [Detached <div> (native) @383445 [288 bytes]
+  --8 (element)--->  [Detached <div> (native) @383435 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @383433 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @383423 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @383417 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @383407 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @383405 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375743 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375731 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375719 [1.1KB]
+  --4 (element)--->  [Detached <h3> (native) @375727 [872 bytes]
+  --7 (element)--->  [Detached <button data-testid="details-btn-11"> (native) @375723 [504 bytes]
+  --8 (element)--->  [Detached InternalNode] (native) @10762 [56 bytes]
+  --1 (element)--->  [Detached CSSStyleDeclaration] (native) @11610 [56 bytes]
+
+
+--------- cluster 4 ---------
+
+cluster: 309541
+
+[(GC roots)] (synthetic) @3 [212.5KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [143.1KB]
+  --2 / DevTools console (internal)--->  [Detached <button data-testid="details-btn-3" style="cursor: pointer; padding: 8px 16px; background-... (native) @309541 [504 bytes]
+  --6 (element)--->  [Detached <div> (native) @374857 [288 bytes]
+  --8 (element)--->  [Detached <div> (native) @374869 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375511 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375523 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375535 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375547 [1.1KB]
+  --8 (element)--->  [Detached <div> (native) @375267 [1.1KB]
+  --4 (element)--->  [Detached <h3> (native) @375259 [872 bytes]
+  --7 (element)--->  [Detached <button data-testid="details-btn-9"> (native) @375263 [504 bytes]
+  --4 (element)--->  [Detached Text] (native) @12494 [80 bytes]
+
+
+--------- cluster 5 ---------
+
+cluster: 316159
+
+[Window / http://localhost:3000] (native) @53633 [4.1KB]
+  --global_object (shortcut)--->  [Window [JSGlobalObject] / http://localhost:3000] (object) @53635 [21.2KB]
+  --__NEXT_P (property)--->  [Array] (object) @55741 [120 bytes]
+  --push (property)--->  [register] (closure) @164955 [76 bytes]
+  --context (internal)--->  [<function scope>] (object) @164965 [56 bytes]
+  --previous (internal)--->  [<function scope>] (object) @164969 [2.5KB]
+  --reactRoot (variable)--->  [ReactDOMHydrationRoot] (object) @192001 [120 bytes]
+  --_internalRoot (property)--->  [FiberRootNode] (object) @168883 [5.8KB]
+  --onCaughtError (property)--->  [defaultOnCaughtError] (closure) @169697 [80 bytes]
+  --context (internal)--->  [<function scope>] (object) @168281 [176KB]
+  --return_targetInst (variable)--->  [Detached FiberNode button HostComponent] (object) @316159 [900 bytes]
+
+

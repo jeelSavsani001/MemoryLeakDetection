@@ -1,0 +1,24 @@
+--------- cluster 1 ---------
+
+cluster: 305651
+
+[(GC roots)] (synthetic) @3 [186.3KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [116.8KB]
+  --1 / DevTools console (internal)--->  [Detached <button data-testid="details-btn-1" style="cursor: pointer; padding: 8px 16px; background-... (native) @305651 [26.6KB]
+  --6 (element)--->  [Detached <div> (native) @348493 [25.7KB]
+  --6 (element)--->  [Detached <div> (native) @343947 [3.3KB]
+  --7 (element)--->  [Detached <div> (native) @343371 [2.8KB]
+  --8 (element)--->  [Detached InternalNode] (native) @9228 [56 bytes]
+  --1 (element)--->  [Detached CSSStyleDeclaration] (native) @9944 [56 bytes]
+
+
+--------- cluster 2 ---------
+
+cluster: 305657
+
+[(GC roots)] (synthetic) @3 [186.3KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [116.8KB]
+  --6 / DevTools console (internal)--->  [Detached <h1> (native) @305657 [4.2KB]
+  --4 (element)--->  [Detached Text] (native) @9304 [80 bytes]
+
+

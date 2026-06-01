@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 import { gql } from '@apollo/client';
 import { useQuery } from '@apollo/client/react';
 
@@ -14,7 +15,29 @@ const GET_CHARACTER_DETAILS = gql`
     }
 `;
 
-let cachedCharacterData = null;
+// 🚨 NEW LEAKY COMPONENT
+function HeavyLeaker({ name }) {
+    useEffect(() => {
+        // 1. Global reference leak
+        window._leaked_components = window._leaked_components || [];
+        window._leaked_components.push({
+            name,
+            timestamp: Date.now(),
+            // Capturing 'name' in this closure keeps the FiberNode 
+            // of HeavyLeaker reachable in many React versions/environments.
+            log: () => console.log("Leaked HeavyLeaker for:", name)
+        });
+
+        // 2. Interval leak
+        const intervalId = setInterval(() => {
+            console.log("Still leaking HeavyLeaker:", name);
+        }, 10000);
+
+        // ❌ NO CLEANUP
+    }, [name]);
+
+    return <div style={{ color: 'red', marginTop: '10px' }}>⚠️ HeavyLeaker Active for {name}</div>;
+}
 
 export default function DetailsPage() {
 
@@ -27,9 +50,23 @@ export default function DetailsPage() {
         skip: !id, // Skip the query until we have an ID
     });
 
-    if (data?.character) {
-        cachedCharacterData = data.character; // LEAK: Holds reference even after unmount
-    }
+
+    // 🚨 LEAK: Event listener + stale closure
+    useEffect(() => {
+        if (!data?.character) return;
+
+        const character = data.character;
+
+        const onResize = () => {
+            // This closure keeps reference to "character"
+            console.log("Leaked character:", character.name);
+        };
+
+        window.addEventListener('resize', onResize);
+
+        // ❌ NO CLEANUP → listener persists after unmount
+    }, [data]);
+
 
     if (loading) return <p>Loading character details...</p>;
     if (error) return <p>Error loading character details!</p>;
@@ -40,6 +77,8 @@ export default function DetailsPage() {
             <p><strong>Status:</strong> {data.character.status}</p>
             <p><strong>Species:</strong> {data.character.species}</p>
             <p><strong>Gender:</strong> {data.character.gender}</p>
+
+            <HeavyLeaker name={data.character.name} />
         </div>
     );
 }

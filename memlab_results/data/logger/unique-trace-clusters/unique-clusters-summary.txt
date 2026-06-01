@@ -1,0 +1,34 @@
+--------- cluster 1 ---------
+
+cluster: 375169
+
+[Window / http://localhost:3000] (native) @53153 [5.6KB]
+  --5 (element)--->  [HTMLDocument] (native) @126353 [6.5KB]
+  --10 (element)--->  [<html> (native) @387865 [160 bytes]
+  --4 (element)--->  [<head> (native) @48 [152 bytes]
+  --4 (element)--->  [<body> (native) @387861 [772 bytes]
+  --4 (element)--->  [<div id="__next"> (native) @168083 [15.2KB]
+  --7 (element)--->  [<div> (native) @464963 [124 bytes]
+  --__reactFiber$810keyg3189 (property)--->  [FiberNode div HostComponent] (object) @463153 [900 bytes]
+  --return (property)--->  [FiberNode FunctionComponent] (object) @426109 [4.3KB]
+  --return (property)--->  [FiberNode react.context ContextProvider] (object) @157221 [540 bytes]
+  --deletions (property)--->  [Array] (object) @426117 [320 bytes]
+  --0 (element)--->  [Detached FiberNode FunctionComponent] (object) @375169 [292 bytes]
+
+
+--------- cluster 2 ---------
+
+cluster: 341809
+
+[Window / http://localhost:3000] (native) @53153 [5.6KB]
+  --global_object (shortcut)--->  [Window [JSGlobalObject] / http://localhost:3000] (object) @53499 [21.6KB]
+  --_nextjsDevtoolsStyleCache (property)--->  [Object] (object) @132937 [356 bytes]
+  --cachedShadowRoot (property)--->  [ShadowRoot] (native) @132943 [15.6KB]
+  --14 (element)--->  [<nextjs-portal> (native) @202969 [15.6KB]
+  --10 (element)--->  [<next-route-announcer> (native) @204627 [15.1KB]
+  --6 (element)--->  [<p id="__next-route-announcer__" role="alert" aria-live="assertive"> (native) @213689 [304 bytes]
+  --__reactFiber$810keyg3189 (property)--->  [FiberNode p HostComponent] (object) @213691 [420 bytes]
+  --return (property)--->  [FiberNode FunctionComponent] (object) @231419 [628 bytes]
+  --alternate (property)--->  [FiberNode FunctionComponent] (object) @341809 [520 bytes]
+
+

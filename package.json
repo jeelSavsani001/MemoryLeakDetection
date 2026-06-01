@@ -11,9 +11,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "memlab": "memlab run --scenario ./test.js",
+    "memlab:summary": "node ./scripts/memlab-summary.js",
+    "memlab:run-summary": "node ./scripts/memlab-summary.js --run --scenario ./test.js --work-dir ./results"
   },
   "devDependencies": {
+    "@memlab/api": "^2.0.3",
+    "@memlab/core": "^2.0.3",
+    "@memlab/heap-analysis": "^2.0.3",
     "puppeteer": "^25.1.0"
   }
 }

@@ -1,0 +1,4456 @@
+window.gcPath = {
+  "$tabsOrder:[\n  {\n    \"name\": \"page-load\",\n    \"url\": \"http://localhost:3000\",\n    \"interactions\": [],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"baseline\",\n    \"idx\": 1,\n    \"JSHeapUsedSize\": 5939496,\n    \"metrics\": {}\n  },\n  {\n    \"name\": \"action-on-page\",\n    \"url\": \"http://localhost:3000\",\n    \"interactions\": [\n      null\n    ],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"target\",\n    \"idx\": 2,\n    \"JSHeapUsedSize\": 6929088,\n    \"metrics\": {}\n  },\n  {\n    \"name\": \"revert\",\n    \"url\": \"http://localhost:3000\",\n    \"interactions\": [\n      null\n    ],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"final\",\n    \"idx\": 3,\n    \"JSHeapUsedSize\": 7102620,\n    \"metrics\": {}\n  }\n]": "",
+  "0: [Window / http://localhost:3000](native) @53713 $retained-size:4120   $snapshotIdTag:1 ": {
+    "native_context (shortcut)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 83992,
+        "id": 7291,
+        "type": "hidden"
+      },
+      "value": "[system / NativeContext / http://localhost:3000]"
+    },
+    "global_object (shortcut)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 21232,
+        "id": 53715,
+        "type": "object"
+      },
+      "value": "[Window [JSGlobalObject] / http://localhost:3000]"
+    },
+    "4 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7054,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "5 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 88,
+        "id": 7056,
+        "type": "native"
+      },
+      "value": "[Screen]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 156,
+        "id": 299881,
+        "type": "native"
+      },
+      "value": "[History]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 184,
+        "id": 248309,
+        "type": "native"
+      },
+      "value": "[Navigator]"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 128,
+        "id": 204,
+        "type": "native"
+      },
+      "value": "[CustomElementRegistry]"
+    },
+    "10 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 768,
+        "id": 262,
+        "type": "native"
+      },
+      "value": "[Navigation]"
+    },
+    "11 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 32,
+        "id": 7058,
+        "type": "native"
+      },
+      "value": "[Viewport]"
+    },
+    "12 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 32,
+        "id": 7060,
+        "type": "native"
+      },
+      "value": "[VisualViewport]"
+    },
+    "13 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7062,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "14 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 152,
+        "id": 10946,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "15 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 410,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "16 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7064,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "17 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 3564,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "18 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 3492,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "19 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 256,
+        "id": 266,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "20 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 80,
+        "id": 412,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "21 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7066,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "22 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 80,
+        "id": 246835,
+        "type": "native"
+      },
+      "value": "[Location]"
+    },
+    "23 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4120,
+        "id": 53713,
+        "type": "native"
+      },
+      "value": "[Window / http://localhost:3000]"
+    },
+    "24 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 396,
+        "id": 7068,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "25 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4120,
+        "id": 53713,
+        "type": "native"
+      },
+      "value": "[Window / http://localhost:3000]"
+    },
+    "26 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 5012,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "27 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7070,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "28 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 5010,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "29 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7072,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "30 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 12482,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "31 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 1060,
+        "id": 10830,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "32 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 128,
+        "id": 206,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "part of key -> value pair in ephemeron table (internal)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 56,
+        "id": 69355,
+        "type": "object"
+      },
+      "value": "[Window [JSGlobalProxy] / http://localhost:3000]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "1:   --5 (element)--->  [HTMLDocument](native) @55671 $retained-size:6516   $snapshotIdTag:1 ": {
+    "location (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 60019,
+        "type": "hidden"
+      },
+      "value": "[system / AccessorPair]"
+    },
+    "get location (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 64,
+        "id": 9149,
+        "type": "hidden"
+      },
+      "value": "[system / FunctionTemplateInfo]"
+    },
+    "set location (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 64,
+        "id": 9151,
+        "type": "hidden"
+      },
+      "value": "[system / FunctionTemplateInfo]"
+    },
+    "_reactListening98187jt67v (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 67,
+        "type": "hidden"
+      },
+      "value": "[true]"
+    },
+    "_reactListening40hp8j5y25a (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 67,
+        "type": "hidden"
+      },
+      "value": "[true]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 152,
+        "id": 60011,
+        "type": "object"
+      },
+      "value": "[HTMLDocument (prototype) / http://localhost:3000]"
+    },
+    "properties (internal)": {
+      "dominator id (extra)": "@55671"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 88,
+        "id": 8630,
+        "type": "native"
+      },
+      "value": "[DocumentType]"
+    },
+    "10 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 160,
+        "id": 377583,
+        "type": "native"
+      },
+      "value": "[<html>]"
+    },
+    "11 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 3858,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "12 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 8484,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "13 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 104,
+        "id": 8632,
+        "type": "native"
+      },
+      "value": "[ScriptRunner]"
+    },
+    "14 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 176,
+        "id": 11090,
+        "type": "native"
+      },
+      "value": "[CSSStyleSheet]"
+    },
+    "15 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 1112,
+        "id": 362,
+        "type": "native"
+      },
+      "value": "[StyleEngine]"
+    },
+    "16 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 2988,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "17 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 3480,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "18 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4120,
+        "id": 53713,
+        "type": "native"
+      },
+      "value": "[Window / http://localhost:3000]"
+    },
+    "19 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 386,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "20 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 6108,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "21 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "22 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 208,
+        "id": 8634,
+        "type": "native"
+      },
+      "value": "[ScriptedAnimationController]"
+    },
+    "23 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 3536,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "24 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 4758,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "25 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 6386,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "26 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 406,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "27 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 184,
+        "id": 404,
+        "type": "native"
+      },
+      "value": "[DocumentTimeline]"
+    },
+    "28 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 5070,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "29 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4120,
+        "id": 53713,
+        "type": "native"
+      },
+      "value": "[Window / http://localhost:3000]"
+    },
+    "30 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 6510,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "31 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 8636,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "32 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 56,
+        "id": 3486,
+        "type": "native"
+      },
+      "value": "[FragmentDirective]"
+    },
+    "33 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 666,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "34 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 400,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "35 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 242,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "36 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 442,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "37 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 568,
+        "id": 244,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "38 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "39 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "40 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 3294,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "41 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7856,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "42 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 8638,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "43 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 128,
+        "id": 204,
+        "type": "native"
+      },
+      "value": "[CustomElementRegistry]"
+    },
+    "44 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 88,
+        "id": 8630,
+        "type": "native"
+      },
+      "value": "[DocumentType]"
+    },
+    "45 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "46 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 6386,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "47 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 104,
+        "id": 10854,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "48 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "49 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 616,
+        "id": 3798,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "part of key -> value pair in ephemeron table (internal)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 16,
+        "id": 373123,
+        "type": "object"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "2:   --10 (element)--->  [<html>](native) @377583 $retained-size:160   $snapshotIdTag:2 ": {
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 160,
+        "id": 86953,
+        "type": "object"
+      },
+      "value": "[HTMLHtmlElement (prototype) / http://localhost:3000]"
+    },
+    "3 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 6384,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "4 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 152,
+        "id": 44,
+        "type": "native"
+      },
+      "value": "[<head>]"
+    },
+    "5 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 88,
+        "id": 8630,
+        "type": "native"
+      },
+      "value": "[DocumentType]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 1884,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 56,
+        "id": 6514,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "10 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 160,
+        "id": 377583,
+        "type": "native"
+      },
+      "value": "[<html>]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "3:   --4 (element)--->  [<head>](native) @44 $retained-size:152   $snapshotIdTag:1 ": {
+    "1 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 96,
+        "id": 46,
+        "type": "native"
+      },
+      "value": "[<meta charset=\"utf-8\" data-next-head=\"\">]"
+    },
+    "2 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "3 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 160,
+        "id": 377583,
+        "type": "native"
+      },
+      "value": "[<html>]"
+    },
+    "4 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 788,
+        "id": 377575,
+        "type": "native"
+      },
+      "value": "[<body>]"
+    },
+    "5 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 788,
+        "id": 377575,
+        "type": "native"
+      },
+      "value": "[<body>]"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 64,
+        "id": 54,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "4:   --4 (element)--->  [<body>](native) @377575 $retained-size:788   $snapshotIdTag:2 ": {
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 880,
+        "id": 217443,
+        "type": "object"
+      },
+      "value": "[HTMLBodyElement (prototype) / http://localhost:3000]"
+    },
+    "3 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 7420,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "4 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 15216,
+        "id": 200365,
+        "type": "native"
+      },
+      "value": "[<div id=\"__next\">]"
+    },
+    "5 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 160,
+        "id": 377583,
+        "type": "native"
+      },
+      "value": "[<html>]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 152,
+        "id": 44,
+        "type": "native"
+      },
+      "value": "[<head>]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 1606,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 676,
+        "id": 3226,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "10 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 788,
+        "id": 377575,
+        "type": "native"
+      },
+      "value": "[<body>]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "5:   --4 (element)--->  [<div id=\"__next\">](native) @200365 $retained-size:15216   $snapshotIdTag:1 ": {
+    "__reactContainer$57e5m403fyw (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 192,
+        "id": 200367,
+        "type": "object"
+      },
+      "value": "[FiberNode HostRoot] @200367"
+    },
+    "_reactListening98187jt67v (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 67,
+        "type": "hidden"
+      },
+      "value": "[true]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 192,
+        "id": 187919,
+        "type": "object"
+      },
+      "value": "[HTMLDivElement (prototype) / http://localhost:3000]"
+    },
+    "properties (internal)": {
+      "0 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 192,
+          "id": 200367,
+          "type": "object"
+        },
+        "value": "[FiberNode HostRoot] @200367"
+      },
+      "dominator id (extra)": "@200365"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 6438,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 124,
+        "id": 446459,
+        "type": "native"
+      },
+      "value": "[<div>]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 788,
+        "id": 377575,
+        "type": "native"
+      },
+      "value": "[<body>]"
+    },
+    "10 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 936,
+        "id": 376933,
+        "type": "native"
+      },
+      "value": "[<script src=\"/_next/static/chunks/pages/details/%5Bid%5D.js\">]"
+    },
+    "11 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 312,
+        "id": 2724,
+        "type": "native"
+      },
+      "value": "[<script id=\"__NEXT_DATA__\" type=\"application/json\">]"
+    },
+    "12 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 1608,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "13 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 15216,
+        "id": 200365,
+        "type": "native"
+      },
+      "value": "[<div id=\"__next\">]"
+    },
+    "14 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 14968,
+        "id": 6910,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "6:   --7 (element)--->  [<div>](native) @446459 $retained-size:124   $snapshotIdTag:3 ": {
+    "__reactFiber$57e5m403fyw (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 900,
+        "id": 439187,
+        "type": "object"
+      },
+      "value": "[FiberNode div HostComponent] @439187"
+    },
+    "__reactProps$57e5m403fyw (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 232,
+        "id": 437711,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 192,
+        "id": 187919,
+        "type": "object"
+      },
+      "value": "[HTMLDivElement (prototype) / http://localhost:3000]"
+    },
+    "properties (internal)": {
+      "0 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 900,
+          "id": 439187,
+          "type": "object"
+        },
+        "value": "[FiberNode div HostComponent] @439187"
+      },
+      "1 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 232,
+          "id": 437711,
+          "type": "object"
+        },
+        "value": "[Object]"
+      },
+      "dominator id (extra)": "@446459"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 12136,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 196,
+        "id": 444823,
+        "type": "native"
+      },
+      "value": "[<div>]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 6516,
+        "id": 55671,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 15216,
+        "id": 200365,
+        "type": "native"
+      },
+      "value": "[<div id=\"__next\">]"
+    },
+    "10 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 124,
+        "id": 446459,
+        "type": "native"
+      },
+      "value": "[<div>]"
+    },
+    "11 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 12138,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "12 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 124,
+        "id": 446459,
+        "type": "native"
+      },
+      "value": "[<div>]"
+    },
+    "part of key -> value pair in ephemeron table (internal)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 12140,
+        "type": "native"
+      },
+      "value": "[InternalNode]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "7:   --__reactFiber$57e5m403fyw (property)--->  [FiberNode div HostComponent](object) @439187 $retained-size:900   $snapshotIdTag:3 ": {
+    "React Fiber return chain (extra)": {
+      "0:  --return (property)--->  [FiberNode div HostComponent](object) @439187 $retained-size:900   $snapshotIdTag:3 ": {},
+      "1:  --return (property)--->  [FiberNode FunctionComponent](object) @436295 $retained-size:4925   $snapshotIdTag:3 ": {},
+      "2:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204071 $retained-size:1472   $snapshotIdTag:1 ": {},
+      "3:  --return (property)--->  [FiberNode FunctionComponent](object) @204151 $retained-size:356   $snapshotIdTag:1 ": {},
+      "4:  --return (property)--->  [FiberNode FunctionComponent](object) @204091 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "5:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204097 $retained-size:340  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "6:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204247 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "7:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204485 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "8:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204765 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "9:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205049 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "10:  --return (property)--->  [FiberNode FunctionComponent](object) @205385 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "11:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205575 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "12:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205271 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "13:  --return (property)--->  [FiberNode ClassComponent](object) @205151 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "14:  --return (property)--->  [FiberNode FunctionComponent](object) @204685 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "15:  --return (property)--->  [FiberNode ClassComponent](object) @204523 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "16:  --return (property)--->  [FiberNode FunctionComponent](object) @204263 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "17:  --return (property)--->  [FiberNode FunctionComponent](object) @204379 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "18:  --return (property)--->  [FiberNode HostRoot](object) @204335 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {}
+    },
+    "tag (property)": {
+      "value": 5,
+      "dominator id (extra)": "@1"
+    },
+    "key (property)": {
+      "0 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1633,
+          "type": "string"
+        },
+        "value": "\"null\""
+      },
+      "1 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1647,
+          "type": "string"
+        },
+        "value": "\"object\""
+      },
+      "dominator id (extra)": "@1"
+    },
+    "elementType (property)": {
+      "1 / backing_store (internal)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 15,
+          "id": 290037,
+          "type": "native"
+        },
+        "value": "[system / ExternalStringData]"
+      },
+      "dominator id (extra)": "@1"
+    },
+    "type (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 63,
+        "id": 29393,
+        "type": "string"
+      },
+      "value": "\"div\""
+    },
+    "stateNode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 124,
+        "id": 446459,
+        "type": "native"
+      },
+      "value": "[<div>]"
+    },
+    "return (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4925,
+        "id": 436295,
+        "type": "object"
+      },
+      "value": "[FiberNode FunctionComponent] @436295"
+    },
+    "child (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 192,
+        "id": 437723,
+        "type": "object"
+      },
+      "value": "[FiberNode div HostComponent] @437723"
+    },
+    "sibling (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "index (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "ref (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "refCleanup (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "pendingProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 232,
+        "id": 437711,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "memoizedProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 232,
+        "id": 437711,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "updateQueue (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "memoizedState (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "dependencies (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "mode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401533,
+        "type": "number"
+      },
+      "value": 3
+    },
+    "flags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "subtreeFlags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 435355,
+        "type": "number"
+      },
+      "value": 1048577
+    },
+    "deletions (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "lanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "childLanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "alternate (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "actualDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 446461,
+        "type": "number"
+      },
+      "value": 5.0999999940395355
+    },
+    "actualStartTime (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 446463,
+        "type": "number"
+      },
+      "value": 33220
+    },
+    "selfBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 446465,
+        "type": "number"
+      },
+      "value": 0.09999999403953552
+    },
+    "treeBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 446467,
+        "type": "number"
+      },
+      "value": 2.500000014901161
+    },
+    "_debugInfo (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "_debugOwner (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4925,
+        "id": 436295,
+        "type": "object"
+      },
+      "value": "[FiberNode FunctionComponent] @436295"
+    },
+    "_debugStack (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 664,
+        "id": 445351,
+        "type": "object"
+      },
+      "value": "[Error]"
+    },
+    "_debugTask (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 44,
+        "id": 395677,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "_debugNeedsRemount (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 69,
+        "type": "hidden"
+      },
+      "value": "[false]"
+    },
+    "_debugHookTypes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 140,
+        "id": 203921,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "8:   --return (property)--->  [FiberNode FunctionComponent](object) @436295 $retained-size:4925   $snapshotIdTag:3 ": {
+    "React Fiber return chain (extra)": {
+      "0:  --return (property)--->  [FiberNode FunctionComponent](object) @436295 $retained-size:4925   $snapshotIdTag:3 ": {},
+      "1:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204071 $retained-size:1472   $snapshotIdTag:1 ": {},
+      "2:  --return (property)--->  [FiberNode FunctionComponent](object) @204151 $retained-size:356   $snapshotIdTag:1 ": {},
+      "3:  --return (property)--->  [FiberNode FunctionComponent](object) @204091 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "4:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204097 $retained-size:340  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "5:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204247 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "6:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204485 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "7:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204765 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "8:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205049 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "9:  --return (property)--->  [FiberNode FunctionComponent](object) @205385 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "10:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205575 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "11:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205271 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "12:  --return (property)--->  [FiberNode ClassComponent](object) @205151 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "13:  --return (property)--->  [FiberNode FunctionComponent](object) @204685 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "14:  --return (property)--->  [FiberNode ClassComponent](object) @204523 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "15:  --return (property)--->  [FiberNode FunctionComponent](object) @204263 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "16:  --return (property)--->  [FiberNode FunctionComponent](object) @204379 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "17:  --return (property)--->  [FiberNode HostRoot](object) @204335 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {}
+    },
+    "tag (property)": {
+      "value": 0,
+      "dominator id (extra)": "@1"
+    },
+    "key (property)": {
+      "0 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1633,
+          "type": "string"
+        },
+        "value": "\"null\""
+      },
+      "1 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1647,
+          "type": "string"
+        },
+        "value": "\"object\""
+      },
+      "dominator id (extra)": "@1"
+    },
+    "elementType (property)": {
+      "shared": {
+        "name_or_scope_info": {
+          "0 (hidden)": {},
+          "1 (hidden)": {},
+          "2 (hidden)": {},
+          "3 (hidden)": {},
+          "4 (hidden)": {},
+          "5 (hidden)": {
+            "1 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 25,
+                "id": 238997,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            }
+          },
+          "7 (hidden)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 152,
+                "id": 33193,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "1 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 128,
+                "id": 14507,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CardLayout$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "2 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 136,
+                "id": 17109,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "3 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 136,
+                "id": 18275,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "4 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 168,
+                "id": 33985,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$apollo$2f$client$2f$react$2f$hooks$2f$useQuery$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "5 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 18063,
+                "type": "string"
+              },
+              "value": "\"_s\""
+            },
+            "6 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 28,
+                "id": 25993,
+                "type": "string"
+              },
+              "value": "\"GET_CHARACTERS\""
+            },
+            "7 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 77,
+                "id": 12451,
+                "type": "string"
+              },
+              "value": "\"CharacterList\""
+            },
+            "8 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 71,
+                "type": "string"
+              },
+              "value": "[<empty string>]"
+            }
+          }
+        },
+        "script": {
+          "1 / part of key system / Script / http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0_sm._-._.js @189853 -> value system / ArrayList @189291 pair in WeakMap table @54159 (internal)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 56,
+                "id": 189293,
+                "type": "object"
+              },
+              "value": "[Array]"
+            }
+          },
+          "id (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395827,
+                "type": "string"
+              },
+              "value": "\"20\""
+            }
+          },
+          "line_offset (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395769,
+                "type": "string"
+              },
+              "value": "\"0\""
+            }
+          },
+          "column_offset (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395769,
+                "type": "string"
+              },
+              "value": "\"0\""
+            }
+          },
+          "script_type (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395821,
+                "type": "string"
+              },
+              "value": "\"2\""
+            }
+          },
+          "script_type_name (internal)": {},
+          "source (internal)": {
+            "1 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 248113,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            },
+            "2 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 28997,
+                "id": 248115,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            }
+          },
+          "name (internal)": {
+            "1 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 92,
+                "id": 248111,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            }
+          },
+          "2 (hidden)": {
+            "39 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 189849,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "40 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 187463,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "41 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 188115,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / CardLayout]"
+            },
+            "42 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 220511,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / onClick]"
+            },
+            "43 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 189857,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "44 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 203217,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "45 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 239011,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / CharacterList]"
+            },
+            "46 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 216615,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / CharacterList.useEffect]"
+            },
+            "47 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 212513,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / handlePageChange]"
+            },
+            "48 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 187509,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "49 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 210607,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / onCardClick]"
+            },
+            "50 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 222117,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / onClick]"
+            },
+            "51 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 222067,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / onClick]"
+            },
+            "52 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 206241,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "53 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 189863,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "54 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 239013,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "55 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 239015,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "56 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 189869,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            }
+          },
+          "5 (hidden)": {},
+          "7 (hidden)": {
+            "0 (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 52,
+                "id": 37107,
+                "type": "string"
+              },
+              "value": "\"http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0_sm._-._.js\""
+            },
+            "2 (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 71,
+                "type": "string"
+              },
+              "value": "[<empty string>]"
+            }
+          }
+        },
+        "trusted_function_data": {
+          "0 (hidden)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 956,
+                "id": 239135,
+                "type": "code"
+              },
+              "value": "[system / BytecodeArray]"
+            }
+          },
+          "1 (hidden)": {},
+          "2 (hidden)": {},
+          "3 (hidden)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 84,
+                "id": 210173,
+                "type": "code"
+              },
+              "value": "[system / ScopeInfo]"
+            },
+            "1 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 11857,
+                "type": "string"
+              },
+              "value": "\"useRouter\""
+            },
+            "2 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 13549,
+                "type": "string"
+              },
+              "value": "\"parseInt\""
+            },
+            "3 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 32801,
+                "type": "string"
+              },
+              "value": "\"query\""
+            },
+            "4 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 26377,
+                "type": "string"
+              },
+              "value": "\"page\""
+            },
+            "5 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 20703,
+                "type": "string"
+              },
+              "value": "\"useState\""
+            },
+            "6 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 2125,
+                "type": "string"
+              },
+              "value": "\"next\""
+            },
+            "7 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 1377,
+                "type": "string"
+              },
+              "value": "\"done\""
+            },
+            "8 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 437,
+                "type": "string"
+              },
+              "value": "\"value\""
+            },
+            "9 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 1713,
+                "type": "string"
+              },
+              "value": "\"return\""
+            },
+            "10 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 28445,
+                "type": "string"
+              },
+              "value": "\"useEffect\""
+            },
+            "11 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239281,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "12 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 216615,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / CharacterList.useEffect]"
+            },
+            "13 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 36,
+                "id": 19393,
+                "type": "string"
+              },
+              "value": "\"CharacterList.useEffect\""
+            },
+            "14 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 239341,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "15 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 14917,
+                "type": "string"
+              },
+              "value": "\"isReady\""
+            },
+            "16 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 212513,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / handlePageChange]"
+            },
+            "17 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 27483,
+                "type": "string"
+              },
+              "value": "\"useQuery\""
+            },
+            "18 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 28,
+                "id": 25993,
+                "type": "string"
+              },
+              "value": "\"GET_CHARACTERS\""
+            },
+            "19 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239283,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "20 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239285,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "21 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 11705,
+                "type": "string"
+              },
+              "value": "\"variables\""
+            },
+            "22 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 27103,
+                "type": "string"
+              },
+              "value": "\"loading\""
+            },
+            "23 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 1417,
+                "type": "string"
+              },
+              "value": "\"error\""
+            },
+            "24 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 27087,
+                "type": "string"
+              },
+              "value": "\"data\""
+            },
+            "25 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 34797,
+                "type": "string"
+              },
+              "value": "\"jsxDEV\""
+            },
+            "26 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 949,
+                "type": "string"
+              },
+              "value": "\"p\""
+            },
+            "27 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239287,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "28 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239289,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "29 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239291,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "30 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239293,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "31 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 20713,
+                "type": "string"
+              },
+              "value": "\"characters\""
+            },
+            "32 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 27955,
+                "type": "string"
+              },
+              "value": "\"info\""
+            },
+            "33 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 11937,
+                "type": "string"
+              },
+              "value": "\"results\""
+            },
+            "34 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 63,
+                "id": 29393,
+                "type": "string"
+              },
+              "value": "\"div\""
+            },
+            "35 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239295,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "36 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 239299,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "37 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 32,
+                "id": 239301,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "38 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 15009,
+                "type": "string"
+              },
+              "value": "\"map\""
+            },
+            "39 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 187509,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "40 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 31183,
+                "type": "string"
+              },
+              "value": "\"children\""
+            },
+            "41 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239305,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "42 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 32,
+                "id": 239307,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "43 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 239313,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "44 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 70,
+                "id": 31823,
+                "type": "string"
+              },
+              "value": "\"button\""
+            },
+            "45 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 239315,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "46 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 32695,
+                "type": "string"
+              },
+              "value": "\"prev\""
+            },
+            "47 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 72,
+                "id": 32461,
+                "type": "string"
+              },
+              "value": "\"disabled\""
+            },
+            "48 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 222117,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / onClick]"
+            },
+            "49 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 10811,
+                "type": "string"
+              },
+              "value": "\"onClick\""
+            },
+            "50 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 32,
+                "id": 239317,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "51 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 25219,
+                "type": "string"
+              },
+              "value": "\"pointer\""
+            },
+            "52 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 14493,
+                "type": "string"
+              },
+              "value": "\"not-allowed\""
+            },
+            "53 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 70,
+                "id": 21227,
+                "type": "string"
+              },
+              "value": "\"cursor\""
+            },
+            "54 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 683,
+                "type": "string"
+              },
+              "value": "\"style\""
+            },
+            "55 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239319,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "56 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 64,
+                "id": 20013,
+                "type": "string"
+              },
+              "value": "\"span\""
+            },
+            "57 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 239321,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "58 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 239325,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "59 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 34331,
+                "type": "string"
+              },
+              "value": "\"pages\""
+            },
+            "60 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239327,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "61 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 239329,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "62 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 222067,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / onClick]"
+            },
+            "63 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 32,
+                "id": 239331,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "64 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239333,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "65 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239335,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "66 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 239337,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            }
+          }
+        },
+        "raw_outer_scope_info_or_feedback_metadata": {},
+        "start_position": {
+          "value (internal)": {}
+        },
+        "end_position": {
+          "value (internal)": {}
+        },
+        "function_literal_id": {
+          "value (internal)": {}
+        },
+        "dominator id (extra)": "@189421"
+      },
+      "context": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 212,
+          "id": 192791,
+          "type": "object"
+        },
+        "value": "[<function scope>] @192791",
+        "dominator id (extra)": "@1"
+      },
+      "dominator id (extra)": "@1"
+    },
+    "type (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 244,
+        "id": 189421,
+        "type": "closure"
+      },
+      "value": "[CharacterList]"
+    },
+    "stateNode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "return (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 1472,
+        "id": 204071,
+        "type": "object"
+      },
+      "value": "[FiberNode react.context ContextProvider] @204071"
+    },
+    "child (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 900,
+        "id": 439187,
+        "type": "object"
+      },
+      "value": "[FiberNode div HostComponent] @439187"
+    },
+    "sibling (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "index (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "ref (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "refCleanup (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "pendingProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 28,
+        "id": 438949,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "memoizedProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 28,
+        "id": 438949,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "updateQueue (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 28,
+        "id": 438147,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "memoizedState (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 2584,
+        "id": 437545,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "dependencies (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 120,
+        "id": 437561,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "mode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401533,
+        "type": "number"
+      },
+      "value": 3
+    },
+    "flags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 435351,
+        "type": "number"
+      },
+      "value": 76023809
+    },
+    "subtreeFlags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 435355,
+        "type": "number"
+      },
+      "value": 1048577
+    },
+    "deletions (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "lanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "childLanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "alternate (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "actualDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 439189,
+        "type": "number"
+      },
+      "value": 6.299999997019768
+    },
+    "actualStartTime (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 439085,
+        "type": "number"
+      },
+      "value": 33218.79999999702
+    },
+    "selfBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 439117,
+        "type": "number"
+      },
+      "value": 1.2000000029802322
+    },
+    "treeBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 439121,
+        "type": "number"
+      },
+      "value": 3.7000000178813934
+    },
+    "_debugInfo (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "_debugOwner (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 192,
+        "id": 204091,
+        "type": "object"
+      },
+      "value": "[FiberNode FunctionComponent] @204091"
+    },
+    "_debugStack (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 664,
+        "id": 438951,
+        "type": "object"
+      },
+      "value": "[Error]"
+    },
+    "_debugTask (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 44,
+        "id": 395729,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "_debugNeedsRemount (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 69,
+        "type": "hidden"
+      },
+      "value": "[false]"
+    },
+    "_debugHookTypes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 100,
+        "id": 437573,
+        "type": "object"
+      },
+      "value": "[Array]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 140,
+        "id": 203921,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "9:   --return (property)--->  [FiberNode react.context ContextProvider](object) @204071 $retained-size:1472   $snapshotIdTag:1 ": {
+    "React Fiber return chain (extra)": {
+      "0:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204071 $retained-size:1472   $snapshotIdTag:1 ": {},
+      "1:  --return (property)--->  [FiberNode FunctionComponent](object) @204151 $retained-size:356   $snapshotIdTag:1 ": {},
+      "2:  --return (property)--->  [FiberNode FunctionComponent](object) @204091 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "3:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204097 $retained-size:340  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "4:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204247 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "5:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204485 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "6:  --return (property)--->  [FiberNode react.context ContextProvider](object) @204765 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "7:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205049 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "8:  --return (property)--->  [FiberNode FunctionComponent](object) @205385 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "9:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205575 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "10:  --return (property)--->  [FiberNode react.context ContextProvider](object) @205271 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "11:  --return (property)--->  [FiberNode ClassComponent](object) @205151 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "12:  --return (property)--->  [FiberNode FunctionComponent](object) @204685 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "13:  --return (property)--->  [FiberNode ClassComponent](object) @204523 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "14:  --return (property)--->  [FiberNode FunctionComponent](object) @204263 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "15:  --return (property)--->  [FiberNode FunctionComponent](object) @204379 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {},
+      "16:  --return (property)--->  [FiberNode HostRoot](object) @204335 $retained-size:192  $memLabTag:alternate $snapshotIdTag:1 ": {}
+    },
+    "tag (property)": {
+      "value": 10,
+      "dominator id (extra)": "@1"
+    },
+    "key (property)": {
+      "0 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1633,
+          "type": "string"
+        },
+        "value": "\"null\""
+      },
+      "1 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1647,
+          "type": "string"
+        },
+        "value": "\"object\""
+      },
+      "dominator id (extra)": "@1"
+    },
+    "elementType (property)": {
+      "$$typeof (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 16,
+          "id": 87339,
+          "type": "symbol"
+        },
+        "value": "Symbol(\"react.context\")"
+      },
+      "_currentValue (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 28,
+          "id": 204137,
+          "type": "object"
+        },
+        "value": "[Object]"
+      },
+      "_currentValue2 (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 28,
+          "id": 204137,
+          "type": "object"
+        },
+        "value": "[Object]"
+      },
+      "_threadCount (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 401555,
+          "type": "number"
+        },
+        "value": 0
+      },
+      "Provider (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 104,
+          "id": 87519,
+          "type": "object"
+        },
+        "value": "[Object]"
+      },
+      "Consumer (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 20,
+          "id": 204139,
+          "type": "object"
+        },
+        "value": "[Object]"
+      },
+      "_currentRenderer (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 65,
+          "type": "hidden"
+        },
+        "value": "[null]"
+      },
+      "_currentRenderer2 (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 65,
+          "type": "hidden"
+        },
+        "value": "[null]"
+      },
+      "displayName (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 28,
+          "id": 32599,
+          "type": "string"
+        },
+        "value": "\"ApolloContext\""
+      },
+      "__proto__ (property)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 268,
+          "id": 53887,
+          "type": "object"
+        },
+        "value": "[Object (prototype) / http://localhost:3000]"
+      },
+      "properties (internal)": {
+        "2 (hidden)": {
+          "_isMemLabWrapper": true,
+          "tags": {
+            "retainedSize": 28,
+            "id": 32599,
+            "type": "string"
+          },
+          "value": "\"ApolloContext\""
+        },
+        "dominator id (extra)": "@87519"
+      },
+      "dominator id (extra)": "@1"
+    },
+    "type (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 104,
+        "id": 87519,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "stateNode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "return (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 356,
+        "id": 204151,
+        "type": "object"
+      },
+      "value": "[FiberNode FunctionComponent] @204151"
+    },
+    "child (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 4925,
+        "id": 436295,
+        "type": "object"
+      },
+      "value": "[FiberNode FunctionComponent] @436295"
+    },
+    "sibling (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "index (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "ref (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "refCleanup (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "pendingProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 28,
+        "id": 436297,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "memoizedProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 28,
+        "id": 436297,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "updateQueue (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "memoizedState (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "dependencies (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "mode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401533,
+        "type": "number"
+      },
+      "value": 3
+    },
+    "flags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401537,
+        "type": "number"
+      },
+      "value": 16
+    },
+    "subtreeFlags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 436299,
+        "type": "number"
+      },
+      "value": 77072387
+    },
+    "deletions (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 320,
+        "id": 436303,
+        "type": "object"
+      },
+      "value": "[Array]"
+    },
+    "lanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "childLanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "alternate (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 1248,
+        "id": 204153,
+        "type": "object"
+      },
+      "value": "[FiberNode react.context ContextProvider] @204153"
+    },
+    "actualDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 204155,
+        "type": "number"
+      },
+      "value": 6.299999997019768
+    },
+    "actualStartTime (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 204157,
+        "type": "number"
+      },
+      "value": 33218.79999999702
+    },
+    "selfBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 204159,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "treeBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 204161,
+        "type": "number"
+      },
+      "value": 3.7000000178813934
+    },
+    "_debugInfo (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "_debugOwner (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 356,
+        "id": 204151,
+        "type": "object"
+      },
+      "value": "[FiberNode FunctionComponent] @204151"
+    },
+    "_debugStack (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 680,
+        "id": 204163,
+        "type": "object"
+      },
+      "value": "[Error]"
+    },
+    "_debugTask (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 44,
+        "id": 37241,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "_debugNeedsRemount (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 69,
+        "type": "hidden"
+      },
+      "value": "[false]"
+    },
+    "_debugHookTypes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 140,
+        "id": 203921,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "dominator id (extra)": "@1"
+  },
+  "10:   --deletions (property)--->  [Array](object) @436303 $retained-size:320   $snapshotIdTag:3 ": {
+    "0 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 292,
+        "id": 373083,
+        "type": "object"
+      },
+      "value": "[Detached FiberNode FunctionComponent] @373083"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 1788,
+        "id": 53865,
+        "type": "object"
+      },
+      "value": "[Array]"
+    },
+    "elements (internal)": {
+      "0 (internal)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 292,
+          "id": 373083,
+          "type": "object"
+        },
+        "value": "[Detached FiberNode FunctionComponent] @373083"
+      },
+      "dominator id (extra)": "@436303"
+    },
+    "dominator id (extra)": "@204071"
+  },
+  "11:   --0 (element)--->  [Detached FiberNode FunctionComponent](object) @373083 $retained-size:292 $memLabTag:leaked  $snapshotIdTag:2 $highlight": {
+    "React Fiber return chain (extra)": {
+      "0:  --return (property)--->  [Detached FiberNode FunctionComponent](object) @373083 $retained-size:292 $memLabTag:leaked  $snapshotIdTag:2 ": {}
+    },
+    "tag (property)": {
+      "value": 0,
+      "dominator id (extra)": "@1"
+    },
+    "key (property)": {
+      "0 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1633,
+          "type": "string"
+        },
+        "value": "\"null\""
+      },
+      "1 (hidden)": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 0,
+          "id": 1647,
+          "type": "string"
+        },
+        "value": "\"object\""
+      },
+      "dominator id (extra)": "@1"
+    },
+    "elementType (property)": {
+      "shared": {
+        "name_or_scope_info": {
+          "0 (hidden)": {},
+          "1 (hidden)": {
+            "1 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 23,
+                "id": 378585,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            }
+          },
+          "3 (hidden)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 152,
+                "id": 33193,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "1 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 136,
+                "id": 17109,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "2 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 136,
+                "id": 18275,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "3 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 168,
+                "id": 33985,
+                "type": "string"
+              },
+              "value": "\"__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$apollo$2f$client$2f$react$2f$hooks$2f$useQuery$2e$js__$5b$client$5d$__$28$ecmascript$29$__\""
+            },
+            "4 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 18063,
+                "type": "string"
+              },
+              "value": "\"_s\""
+            },
+            "5 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 36,
+                "id": 308527,
+                "type": "string"
+              },
+              "value": "\"GET_CHARACTER_DETAILS\""
+            },
+            "6 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 308533,
+                "type": "string"
+              },
+              "value": "\"leakedNodes\""
+            },
+            "7 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 52,
+                "id": 308585,
+                "type": "string"
+              },
+              "value": "\"DetailsPage\""
+            },
+            "8 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 71,
+                "type": "string"
+              },
+              "value": "[<empty string>]"
+            }
+          }
+        },
+        "script": {
+          "id (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395859,
+                "type": "string"
+              },
+              "value": "\"50\""
+            }
+          },
+          "line_offset (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395769,
+                "type": "string"
+              },
+              "value": "\"0\""
+            }
+          },
+          "column_offset (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395769,
+                "type": "string"
+              },
+              "value": "\"0\""
+            }
+          },
+          "script_type (internal)": {
+            "value (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 395821,
+                "type": "string"
+              },
+              "value": "\"2\""
+            }
+          },
+          "script_type_name (internal)": {},
+          "source (internal)": {
+            "1 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381425,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            },
+            "2 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 53578,
+                "id": 381427,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            }
+          },
+          "name (internal)": {
+            "1 / backing_store (internal)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 92,
+                "id": 381423,
+                "type": "native"
+              },
+              "value": "[system / ExternalStringData]"
+            }
+          },
+          "2 (hidden)": {
+            "39 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 375315,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "40 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 376011,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "41 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 376541,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / DetailsPage]"
+            },
+            "42 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 378587,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / DetailsPage.useEffect]"
+            },
+            "43 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 376847,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "44 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 375323,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "45 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 378589,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "46 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 376961,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            },
+            "47 (weak)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 375329,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo]"
+            }
+          },
+          "3 (hidden)": {},
+          "5 (hidden)": {},
+          "12 / part of key system / Script / http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0.7lzw-._.js @375319 -> value system / ArrayList @375691 pair in WeakMap table @54159 (internal)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 56,
+                "id": 375693,
+                "type": "object"
+              },
+              "value": "[Array]"
+            }
+          }
+        },
+        "trusted_function_data": {
+          "0 (hidden)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 736,
+                "id": 378663,
+                "type": "code"
+              },
+              "value": "[system / BytecodeArray]"
+            }
+          },
+          "1 (hidden)": {},
+          "2 (hidden)": {},
+          "3 (hidden)": {
+            "0 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 52,
+                "id": 378661,
+                "type": "code"
+              },
+              "value": "[system / ScopeInfo]"
+            },
+            "1 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 11857,
+                "type": "string"
+              },
+              "value": "\"useRouter\""
+            },
+            "2 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 32801,
+                "type": "string"
+              },
+              "value": "\"query\""
+            },
+            "3 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 1495,
+                "type": "string"
+              },
+              "value": "\"id\""
+            },
+            "4 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 27483,
+                "type": "string"
+              },
+              "value": "\"useQuery\""
+            },
+            "5 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 36,
+                "id": 308527,
+                "type": "string"
+              },
+              "value": "\"GET_CHARACTER_DETAILS\""
+            },
+            "6 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 32,
+                "id": 381813,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "7 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381815,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "8 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 11705,
+                "type": "string"
+              },
+              "value": "\"variables\""
+            },
+            "9 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 29509,
+                "type": "string"
+              },
+              "value": "\"skip\""
+            },
+            "10 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 27103,
+                "type": "string"
+              },
+              "value": "\"loading\""
+            },
+            "11 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 1417,
+                "type": "string"
+              },
+              "value": "\"error\""
+            },
+            "12 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 16,
+                "id": 27087,
+                "type": "string"
+              },
+              "value": "\"data\""
+            },
+            "13 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 28445,
+                "type": "string"
+              },
+              "value": "\"useEffect\""
+            },
+            "14 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381817,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "15 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 48,
+                "id": 378587,
+                "type": "code"
+              },
+              "value": "[system / SharedFunctionInfo / DetailsPage.useEffect]"
+            },
+            "16 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 36,
+                "id": 308731,
+                "type": "string"
+              },
+              "value": "\"DetailsPage.useEffect\""
+            },
+            "17 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 381879,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "18 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 34797,
+                "type": "string"
+              },
+              "value": "\"jsxDEV\""
+            },
+            "19 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 949,
+                "type": "string"
+              },
+              "value": "\"p\""
+            },
+            "20 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381819,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "21 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381821,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "22 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381823,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "23 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381825,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "24 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 63,
+                "id": 29393,
+                "type": "string"
+              },
+              "value": "\"div\""
+            },
+            "25 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 32,
+                "id": 381827,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "26 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 381833,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "27 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 62,
+                "id": 14791,
+                "type": "string"
+              },
+              "value": "\"h1\""
+            },
+            "28 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381835,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "29 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 1313,
+                "type": "string"
+              },
+              "value": "\"character\""
+            },
+            "30 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 75,
+                "type": "string"
+              },
+              "value": "\"name\""
+            },
+            "31 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 31183,
+                "type": "string"
+              },
+              "value": "\"children\""
+            },
+            "32 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381837,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "33 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381839,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "34 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 381843,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "35 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 70,
+                "id": 13849,
+                "type": "string"
+              },
+              "value": "\"strong\""
+            },
+            "36 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381845,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "37 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381847,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "38 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 36885,
+                "type": "string"
+              },
+              "value": "\"status\""
+            },
+            "39 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381849,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "40 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381851,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "41 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 381855,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "42 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381857,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "43 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381859,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "44 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 0,
+                "id": 34119,
+                "type": "string"
+              },
+              "value": "\"species\""
+            },
+            "45 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381861,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "46 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381863,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "47 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 12,
+                "id": 381867,
+                "type": "code"
+              },
+              "value": "[system / ArrayBoilerplateDescription]"
+            },
+            "48 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 24,
+                "id": 381869,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "49 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381871,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "50 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 20,
+                "id": 308977,
+                "type": "string"
+              },
+              "value": "\"gender\""
+            },
+            "51 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381873,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            },
+            "52 (hidden)": {
+              "_isMemLabWrapper": true,
+              "tags": {
+                "retainedSize": 40,
+                "id": 381875,
+                "type": "code"
+              },
+              "value": "[system / ObjectBoilerplateDescription]"
+            }
+          }
+        },
+        "raw_outer_scope_info_or_feedback_metadata": {},
+        "start_position": {
+          "value (internal)": {}
+        },
+        "end_position": {
+          "value (internal)": {}
+        },
+        "function_literal_id": {
+          "value (internal)": {}
+        },
+        "dominator id (extra)": "@374595"
+      },
+      "context": {
+        "_isMemLabWrapper": true,
+        "tags": {
+          "retainedSize": 856,
+          "id": 376013,
+          "type": "object"
+        },
+        "value": "[<function scope>] @376013",
+        "dominator id (extra)": "@1"
+      },
+      "dominator id (extra)": "@1"
+    },
+    "type (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 244,
+        "id": 374595,
+        "type": "closure"
+      },
+      "value": "[DetailsPage]"
+    },
+    "stateNode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "return (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "child (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "sibling (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "index (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "ref (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "refCleanup (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "pendingProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "memoizedProps (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "updateQueue (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "memoizedState (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "dependencies (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "mode (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401533,
+        "type": "number"
+      },
+      "value": 3
+    },
+    "flags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 445025,
+        "type": "number"
+      },
+      "value": 76040193
+    },
+    "subtreeFlags (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 435207,
+        "type": "number"
+      },
+      "value": 1048576
+    },
+    "deletions (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "lanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "childLanes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 401555,
+        "type": "number"
+      },
+      "value": 0
+    },
+    "alternate (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "actualDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 388523,
+        "type": "number"
+      },
+      "value": 0.7000000029802322
+    },
+    "actualStartTime (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 388525,
+        "type": "number"
+      },
+      "value": 17268.69999998808
+    },
+    "selfBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 388527,
+        "type": "number"
+      },
+      "value": 0.4000000059604645
+    },
+    "treeBaseDuration (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 12,
+        "id": 388529,
+        "type": "number"
+      },
+      "value": 0.5
+    },
+    "_debugInfo (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "_debugOwner (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 65,
+        "type": "hidden"
+      },
+      "value": "[null]"
+    },
+    "_debugStack (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 676,
+        "id": 388465,
+        "type": "object"
+      },
+      "value": "[Error]"
+    },
+    "_debugTask (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 44,
+        "id": 309193,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "_debugNeedsRemount (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 0,
+        "id": 69,
+        "type": "hidden"
+      },
+      "value": "[false]"
+    },
+    "_debugHookTypes (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 100,
+        "id": 388531,
+        "type": "object"
+      },
+      "value": "[Array]"
+    },
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 140,
+        "id": 203921,
+        "type": "object"
+      },
+      "value": "[Object]"
+    },
+    "dominator id (extra)": "@436303"
+  }
+};

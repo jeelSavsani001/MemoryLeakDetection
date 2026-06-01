@@ -1,0 +1,46 @@
+{
+  "app": "default-app-for-scenario",
+  "type": "scenario",
+  "interaction": "test.js",
+  "browserInfo": {
+    "_browserVersion": "Chrome/148.0.7778.178",
+    "_puppeteerConfig": {
+      "headless": true,
+      "devtools": false,
+      "protocolTimeout": 300000,
+      "ignoreHTTPSErrors": true,
+      "ignoreDefaultArgs": [
+        "--disable-extensions"
+      ],
+      "userDataDir": "/Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/MemoryLeakDetection/results/data/profile",
+      "args": [
+        "--no-sandbox",
+        "--disable-notifications",
+        "--use-fake-ui-for-media-stream",
+        "--use-fake-device-for-media-stream",
+        "--js-flags=\"--no-move-object-start\"",
+        "--enable-precise-memory-info",
+        "--enable-webgl",
+        "browser-test"
+      ],
+      "defaultViewport": {
+        "width": 1680,
+        "height": 1080,
+        "deviceScaleFactor": 1
+      },
+      "executablePath": "/Users/jeel.savsani/.cache/puppeteer/chrome/mac-148.0.7778.178/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+    },
+    "_consoleMessages": [
+      "[memlab]: [1/3] visiting page-load (baseline)",
+      "[console.info]: %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "[console.log]: [HMR] connected",
+      "[console.error]: Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "[console.log]: Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm",
+      "[memlab]: [2/3] visiting action-on-page (target)",
+      "[memlab]: [3/3] visiting revert (final)"
+    ]
+  },
+  "extraInfo": {
+    "command": "run --scenario test.js --chromium-binary /Users/jeel.savsani/.cache/puppeteer/chrome/mac-148.0.7778.178/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing --work-dir MemoryLeakDetection/results"
+  }
+}
