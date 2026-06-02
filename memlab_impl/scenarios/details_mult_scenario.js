@@ -6,9 +6,9 @@ function url() {
 
 async function action(page) {
     const buttons = [
-        '[data-testid="card-details-button-1"]',
-        '[data-testid="card-details-button-2"]',
-        '[data-testid="card-details-button-3"]',
+        '[data-testid="details-btn-1"]',
+        '[data-testid="details-btn-2"]',
+        '[data-testid="details-btn-3"]',
     ];
 
     for (const button of buttons) {
@@ -16,7 +16,7 @@ async function action(page) {
         await page.click(button);
 
         await page.goBack();
-        await page.waitForSelector('[data-testid="card-details-button-1"]');
+        await page.waitForSelector('[data-testid="details-btn-1"]');
     }
 
     await page.waitForSelector('[data-testid="next-button"]');

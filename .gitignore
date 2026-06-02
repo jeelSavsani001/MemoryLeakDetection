@@ -23,4 +23,4 @@ pnpm-debug.log*
 coverage/
 
 # output 
-memlab_leak_reports.txt
+memlab_leak_report.txt

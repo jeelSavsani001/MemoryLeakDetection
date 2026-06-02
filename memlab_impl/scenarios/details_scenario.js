@@ -1,15 +1,15 @@
 // memlab/scenarios/paginationScenario.js
 
 module.exports = {
-  url: () => "http://localhost:3000",
+  url: () => "https://memory-leak-detection-ruby.vercel.app/",
 
   action: async (page) => {
     console.log("👉 Waiting for button to render...");
     // 1. Ensure the app has hydrated and the button actually exists
-    await page.waitForSelector('[data-testid="card-details-button-1"]', { timeout: 5000 });
+    await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 5000 });
     
     console.log("👉 Clicking button...");
-    await page.click('[data-testid="card-details-button-1"]');
+    await page.click('[data-testid="details-btn-1"]');
 
     console.log("👉 Waiting for details page to load...");
     // 2. CRITICAL: Wait for a specific element on the destination page to appear.
@@ -24,6 +24,6 @@ module.exports = {
 
     console.log("👈 Waiting for list to return...");
     // 4. CRITICAL: Wait for the original UI to fully paint back onto the screen.
-    await page.waitForSelector('[data-testid="card-details-button-1"]', { timeout: 5000 });
+    await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 5000 });
   }
 };
