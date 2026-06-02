@@ -5,6 +5,7 @@ export default function CardLayout({id, name, onCardClick}) {
             <button 
                 data-testid={`card-details-button-${id}`}
                 onClick={() => onCardClick(id)} 
+                data-testid={`details-btn-${id}`}
                 style={{ cursor: 'pointer', padding: '8px 16px', backgroundColor: '#0070f3', color: '#fff', border: 'none', borderRadius: '4px' }}
             >
                 Details
