@@ -1,2 +1,3 @@
-2026/06/01-19:14:40.002 260594 Creating DB /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Local Storage/leveldb since it was missing.
-2026/06/01-19:14:40.057 260594 Reusing MANIFEST /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/01-19:38:24.108 267ef1 Reusing MANIFEST /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/01-19:38:24.120 267ef1 Recovering log #3
+2026/06/01-19:38:24.123 267ef1 Reusing old log /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Local Storage/leveldb/000003.log 

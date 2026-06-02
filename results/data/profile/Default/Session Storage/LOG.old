@@ -1,2 +1,3 @@
-2026/06/01-19:14:40.003 260599 Creating DB /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Session Storage since it was missing.
-2026/06/01-19:14:40.055 260599 Reusing MANIFEST /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Session Storage/MANIFEST-000001
+2026/06/01-19:38:25.441 267ef1 Reusing MANIFEST /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Session Storage/MANIFEST-000001
+2026/06/01-19:38:25.452 267ef1 Recovering log #3
+2026/06/01-19:38:25.454 267ef1 Reusing old log /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/Session Storage/000003.log 

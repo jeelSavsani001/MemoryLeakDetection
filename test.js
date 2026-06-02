@@ -1,16 +1,16 @@
 const scenario = {
   // 1. Start at the home/listing page
   // url: () => 'http://localhost:3000',
-  url: () => 'https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/',
+  url: () => 'memory-leak-detection-git-main-jeelsavsani001s-projects.vercel.app',
 
   // Pre-test setup: Inject cookies to bypass Vercel Deployment Protection
   setup: async (page) => {
-    const domain = 'memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app';
+    const domain = 'memory-leak-detection-git-main-jeelsavsani001s-projects.vercel.app';
     
     // Replace 'YOUR_COOKIE_VALUE' with the value of '_vercel_jwt' from your browser
     await page.setCookie({
       name: '_vercel_jwt',
-      value: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3ODAzMjA5MDEsIm93bmVySWQiOiJ0ZWFtX1Y4ZlJpcEpyb21yb2lnZG5WOG5aOG1hNyIsInVzZXJuYW1lIjoiamVlbHNhdnNhbmkwMDEiLCJ1c2VySWQiOiJTSWFyRDdWcjdSTHBLUnBTbHA1YWFDZm4iLCJhdWQiOiJtZW1vcnktbGVhay1kZXRlY3Rpb24taHYzcnRnNmc1LWplZWxzYXZzYW5pMDAxcy1wcm9qZWN0cy52ZXJjZWwuYXBwIiwic3ViIjoic3NvLXByb3RlY3Rpb24ifQ.J_NPTGPiWzvwLDKMKL3AxzjkyFeINkV5levOv371cDo', 
+      value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJTSWFyRDdWcjdSTHBLUnBTbHA1YWFDZm4iLCJpYXQiOjE3ODAzNzUzODgsInVzZXJuYW1lIjoiamVlbHNhdnNhbmkwMDEiLCJvd25lcklkIjoidGVhbV9WOGZSaXBKcm9tcm9pZ2RuVjhuWjhtYTciLCJhdWQiOiJtZW1vcnktbGVhay1kZXRlY3Rpb24tZ2l0LW1haW4tamVlbHNhdnNhbmkwMDFzLXByb2plY3RzLnZlcmNlbC5hcHAiLCJzdWIiOiJzc28tcHJvdGVjdGlvbiJ9.C9DMfCJp5CdSSa-b-2DaGQZKzFyDnpL8O7f7WXLR6XE', 
       domain: domain,
       path: '/',
       httpOnly: true,

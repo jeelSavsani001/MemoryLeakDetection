@@ -46,3 +46,52 @@ page-load[12.9MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]
 interaction fail, making 1 more attempt(s)...
 Use `memlab help` or `memlab <COMMAND> -h` to get helper text
 interaction fail
+Warming up web ser: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 0/100
+Warming up web ser: |██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 16/100
+Warming up web ser: |█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░| 33/100
+Warming up web ser: |████████████████████░░░░░░░░░░░░░░░░░░░░| 50/100
+Warming up web ser: |██████████████████████████░░░░░░░░░░░░░░| 66/100
+Warming up web ser: |█████████████████████████████████░░░░░░░| 83/100
+page-load(baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Connecting to web server...
+Check timeout '/login' set wait: 2000ms
+running a full GC...
+Heap size: 13.3MB
+taking screenshot...
+heap snapshot 0% complete
+heap snapshot 3% complete
+heap snapshot 7% complete
+heap snapshot 11% complete
+heap snapshot 14% complete
+heap snapshot 18% complete
+heap snapshot 22% complete
+heap snapshot 25% complete
+heap snapshot 29% complete
+heap snapshot 33% complete
+heap snapshot 36% complete
+heap snapshot 40% complete
+heap snapshot 44% complete
+heap snapshot 47% complete
+heap snapshot 51% complete
+heap snapshot 55% complete
+heap snapshot 58% complete
+heap snapshot 62% complete
+heap snapshot 66% complete
+heap snapshot 69% complete
+heap snapshot 73% complete
+heap snapshot 77% complete
+heap snapshot 80% complete
+heap snapshot 84% complete
+heap snapshot 88% complete
+heap snapshot 91% complete
+heap snapshot 95% complete
+heap snapshot 99% complete
+heap snapshot 99% complete
+heap snapshot 100% complete
+heap snapshot 100% complete
+snapshot saved to disk
+
+page-load[13.3MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+interaction fail, making 1 more attempt(s)...
+Use `memlab help` or `memlab <COMMAND> -h` to get helper text
+interaction fail

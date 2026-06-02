@@ -1,2 +1,3 @@
-2026/06/01-19:14:40.034 26051b Creating DB /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/shared_proto_db since it was missing.
-2026/06/01-19:14:40.060 26051b Reusing MANIFEST /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/shared_proto_db/MANIFEST-000001
+2026/06/01-19:38:24.754 267e83 Reusing MANIFEST /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/shared_proto_db/MANIFEST-000001
+2026/06/01-19:38:24.756 267e83 Recovering log #3
+2026/06/01-19:38:24.758 267e83 Reusing old log /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/profile/Default/shared_proto_db/000003.log 
