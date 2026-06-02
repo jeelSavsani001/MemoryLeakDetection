@@ -1,10 +1,10 @@
 --------- cluster 1 ---------
 
-cluster: 156335
+cluster: 156417
 
 [(GC roots)] (synthetic) @3 [105.3KB]
   --10 (element)--->  [(Global handles)] (synthetic) @23 [42.2KB]
-  --80 / DevTools console (internal)--->  [Detached <h1> (native) @156335 [3.5KB]
+  --80 / DevTools console (internal)--->  [Detached <h1> (native) @156417 [3.5KB]
   --4 (element)--->  [Detached Text] (native) @5474 [80 bytes]
 
 

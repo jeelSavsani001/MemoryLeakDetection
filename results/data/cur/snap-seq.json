@@ -7,7 +7,7 @@
     "screenshot": true,
     "type": "baseline",
     "idx": 1,
-    "JSHeapUsedSize": 2695324,
+    "JSHeapUsedSize": 2697932,
     "metrics": {}
   },
   {
@@ -20,7 +20,7 @@
     "screenshot": true,
     "type": "target",
     "idx": 2,
-    "JSHeapUsedSize": 3366788,
+    "JSHeapUsedSize": 3370796,
     "metrics": {}
   },
   {
@@ -33,7 +33,7 @@
     "screenshot": true,
     "type": "final",
     "idx": 3,
-    "JSHeapUsedSize": 3505976,
+    "JSHeapUsedSize": 3510136,
     "metrics": {}
   }
 ]

@@ -1,6 +1,6 @@
 window.gcPath = {
-  "$tabsOrder:[\n  {\n    \"name\": \"page-load\",\n    \"url\": \"https://memory-leak-detection-ruby.vercel.app/\",\n    \"interactions\": [],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"baseline\",\n    \"idx\": 1,\n    \"JSHeapUsedSize\": 2697932,\n    \"metrics\": {}\n  },\n  {\n    \"name\": \"action-on-page\",\n    \"url\": \"https://memory-leak-detection-ruby.vercel.app/\",\n    \"interactions\": [\n      null\n    ],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"target\",\n    \"idx\": 2,\n    \"JSHeapUsedSize\": 3370796,\n    \"metrics\": {}\n  },\n  {\n    \"name\": \"revert\",\n    \"url\": \"https://memory-leak-detection-ruby.vercel.app/\",\n    \"interactions\": [\n      null\n    ],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"final\",\n    \"idx\": 3,\n    \"JSHeapUsedSize\": 3510136,\n    \"metrics\": {}\n  }\n]": "",
-  "0: [(GC roots)](synthetic) @3 $retained-size:105347   $snapshotIdTag:1 ": {
+  "$tabsOrder:[\n  {\n    \"name\": \"page-load\",\n    \"url\": \"https://memory-leak-detection-ruby.vercel.app/\",\n    \"interactions\": [],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"baseline\",\n    \"idx\": 1,\n    \"JSHeapUsedSize\": 2697708,\n    \"metrics\": {}\n  },\n  {\n    \"name\": \"action-on-page\",\n    \"url\": \"https://memory-leak-detection-ruby.vercel.app/\",\n    \"interactions\": [\n      null\n    ],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"target\",\n    \"idx\": 2,\n    \"JSHeapUsedSize\": 3370256,\n    \"metrics\": {}\n  },\n  {\n    \"name\": \"revert\",\n    \"url\": \"https://memory-leak-detection-ruby.vercel.app/\",\n    \"interactions\": [\n      null\n    ],\n    \"snapshot\": true,\n    \"screenshot\": true,\n    \"type\": \"final\",\n    \"idx\": 3,\n    \"JSHeapUsedSize\": 3510024,\n    \"metrics\": {}\n  }\n]": "",
+  "0: [(GC roots)](synthetic) @3 $retained-size:105707   $snapshotIdTag:1 ": {
     "1 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
@@ -85,7 +85,7 @@ window.gcPath = {
     "10 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 42279,
+        "retainedSize": 42639,
         "id": 23,
         "type": "synthetic"
       },
@@ -257,7 +257,7 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 272,
-        "id": 7698,
+        "id": 7668,
         "type": "synthetic"
       },
       "value": "[C++ Persistent roots]"
@@ -266,14 +266,14 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 0,
-        "id": 7700,
+        "id": 7670,
         "type": "synthetic"
       },
       "value": "[C++ CrossThreadPersistent roots]"
     },
     "dominator id (extra)": "@1"
   },
-  "1:   --10 (element)--->  [(Global handles)](synthetic) @23 $retained-size:42279   $snapshotIdTag:1 ": {
+  "1:   --10 (element)--->  [(Global handles)](synthetic) @23 $retained-size:42639   $snapshotIdTag:1 ": {
     "1 (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
@@ -286,7 +286,7 @@ window.gcPath = {
     "2 / V8PerContextData::context_ (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 66872,
+        "retainedSize": 66800,
         "id": 7287,
         "type": "hidden"
       },
@@ -295,7 +295,7 @@ window.gcPath = {
     "3 / gin::ContextHolder::context_ (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 66872,
+        "retainedSize": 66800,
         "id": 7287,
         "type": "hidden"
       },
@@ -313,7 +313,7 @@ window.gcPath = {
     "5 / extensions::ScriptContext::v8_context_ (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 66872,
+        "retainedSize": 66800,
         "id": 7287,
         "type": "hidden"
       },
@@ -952,8 +952,8 @@ window.gcPath = {
     "76 / DevTools console (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 9684,
-        "id": 156409,
+        "retainedSize": 9448,
+        "id": 156389,
         "type": "object"
       },
       "value": "[Object]"
@@ -961,26 +961,26 @@ window.gcPath = {
     "77 / DevTools console (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 3552,
-        "id": 156411,
-        "type": "native"
-      },
-      "value": "[Detached <h1>]"
-    },
-    "78 / DevTools console (internal)": {
-      "_isMemLabWrapper": true,
-      "tags": {
-        "retainedSize": 9448,
-        "id": 156413,
+        "retainedSize": 9684,
+        "id": 156391,
         "type": "object"
       },
       "value": "[Object]"
     },
+    "78 / DevTools console (internal)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 3672,
+        "id": 156393,
+        "type": "native"
+      },
+      "value": "[Detached <h1>]"
+    },
     "79 / DevTools console (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 3568,
-        "id": 156415,
+        "retainedSize": 3688,
+        "id": 156395,
         "type": "native"
       },
       "value": "[Detached <h1>]"
@@ -988,8 +988,8 @@ window.gcPath = {
     "80 / DevTools console (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 3568,
-        "id": 156417,
+        "retainedSize": 3688,
+        "id": 156397,
         "type": "native"
       },
       "value": "[Detached <h1>]"
@@ -997,20 +997,20 @@ window.gcPath = {
     "81 / DevTools console (internal)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 3568,
-        "id": 156419,
+        "retainedSize": 3688,
+        "id": 156399,
         "type": "native"
       },
       "value": "[Detached <h1>]"
     },
     "dominator id (extra)": "@3"
   },
-  "2:   --80 / DevTools console (internal)--->  [Detached <h1>](native) @156417 $retained-size:3568 $memLabTag:leaked  $snapshotIdTag:2 $highlight": {
+  "2:   --79 / DevTools console (internal)--->  [Detached <h1>](native) @156395 $retained-size:3688 $memLabTag:leaked  $snapshotIdTag:2 $highlight": {
     "__proto__ (property)": {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 176,
-        "id": 71563,
+        "id": 145945,
         "type": "object"
       },
       "value": "[HTMLHeadingElement (prototype) / https://memory-leak-detection-ruby.vercel.app]"
@@ -1019,7 +1019,7 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 128,
-        "id": 238951,
+        "id": 203255,
         "type": "array"
       },
       "value": "[(object properties)]"
@@ -1028,7 +1028,7 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 80,
-        "id": 5474,
+        "id": 5266,
         "type": "native"
       },
       "value": "[Detached Text]"
@@ -1037,7 +1037,7 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 7402,
-        "id": 53307,
+        "id": 43063,
         "type": "native"
       },
       "value": "[HTMLDocument]"
@@ -1045,17 +1045,17 @@ window.gcPath = {
     "6 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 304,
-        "id": 203339,
+        "retainedSize": 344,
+        "id": 203317,
         "type": "native"
       },
-      "value": "[Detached <div data-testid=\"character-details\">]"
+      "value": "[Detached <div>]"
     },
     "7 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 984,
-        "id": 203357,
+        "id": 203313,
         "type": "native"
       },
       "value": "[Detached <p>]"
@@ -1064,7 +1064,7 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 984,
-        "id": 203345,
+        "id": 203273,
         "type": "native"
       },
       "value": "[Detached <p>]"
@@ -1072,8 +1072,8 @@ window.gcPath = {
     "9 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 3568,
-        "id": 156417,
+        "retainedSize": 3688,
+        "id": 156395,
         "type": "native"
       },
       "value": "[Detached <h1>]"
@@ -1082,19 +1082,160 @@ window.gcPath = {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 16,
-        "id": 203583,
+        "id": 203323,
         "type": "object"
       },
       "value": "[HTMLHeadingElement]"
     },
     "dominator id (extra)": "@23"
   },
-  "3:   --4 (element)--->  [Detached Text](native) @5474 $retained-size:80 $memLabTag:leaked  $snapshotIdTag:2 ": {
+  "3:   --7 (element)--->  [Detached <p>](native) @203313 $retained-size:984 $memLabTag:leaked  $snapshotIdTag:2 ": {
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 176,
+        "id": 132331,
+        "type": "object"
+      },
+      "value": "[HTMLParagraphElement (prototype) / https://memory-leak-detection-ruby.vercel.app]"
+    },
+    "properties (internal)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 128,
+        "id": 203315,
+        "type": "array"
+      },
+      "value": "[(object properties)]"
+    },
+    "4 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 752,
+        "id": 203301,
+        "type": "native"
+      },
+      "value": "[Detached <strong>]"
+    },
+    "5 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 7402,
+        "id": 43063,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 344,
+        "id": 203317,
+        "type": "native"
+      },
+      "value": "[Detached <div>]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 984,
+        "id": 203293,
+        "type": "native"
+      },
+      "value": "[Detached <p>]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 984,
+        "id": 203313,
+        "type": "native"
+      },
+      "value": "[Detached <p>]"
+    },
+    "dominator id (extra)": "@156395"
+  },
+  "4:   --4 (element)--->  [Detached <strong>](native) @203301 $retained-size:752 $memLabTag:leaked  $snapshotIdTag:2 ": {
+    "__proto__ (property)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 3524,
+        "id": 66091,
+        "type": "object"
+      },
+      "value": "[HTMLElement (prototype) / https://memory-leak-detection-ruby.vercel.app]"
+    },
+    "properties (internal)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 128,
+        "id": 203303,
+        "type": "array"
+      },
+      "value": "[(object properties)]"
+    },
+    "4 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 80,
+        "id": 5260,
+        "type": "native"
+      },
+      "value": "[Detached Text]"
+    },
+    "5 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 7402,
+        "id": 43063,
+        "type": "native"
+      },
+      "value": "[HTMLDocument]"
+    },
+    "6 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 984,
+        "id": 203313,
+        "type": "native"
+      },
+      "value": "[Detached <p>]"
+    },
+    "7 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 220,
+        "id": 203309,
+        "type": "native"
+      },
+      "value": "[Detached Text]"
+    },
+    "8 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 220,
+        "id": 203305,
+        "type": "native"
+      },
+      "value": "[Detached Text]"
+    },
+    "9 (element)": {
+      "_isMemLabWrapper": true,
+      "tags": {
+        "retainedSize": 752,
+        "id": 203301,
+        "type": "native"
+      },
+      "value": "[Detached <strong>]"
+    },
+    "dominator id (extra)": "@203313"
+  },
+  "5:   --4 (element)--->  [Detached Text](native) @5260 $retained-size:80 $memLabTag:leaked  $snapshotIdTag:2 ": {
     "1 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 7402,
-        "id": 53307,
+        "id": 43063,
         "type": "native"
       },
       "value": "[HTMLDocument]"
@@ -1102,21 +1243,21 @@ window.gcPath = {
     "2 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
-        "retainedSize": 3568,
-        "id": 156417,
+        "retainedSize": 752,
+        "id": 203301,
         "type": "native"
       },
-      "value": "[Detached <h1>]"
+      "value": "[Detached <strong>]"
     },
     "3 (element)": {
       "_isMemLabWrapper": true,
       "tags": {
         "retainedSize": 80,
-        "id": 5474,
+        "id": 5260,
         "type": "native"
       },
       "value": "[Detached Text]"
     },
-    "dominator id (extra)": "@156417"
+    "dominator id (extra)": "@203301"
   }
 };
