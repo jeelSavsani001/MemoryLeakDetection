@@ -36,6 +36,7 @@ export default function DetailsPage() {
 
     if (loading) return <p>Loading character details...</p>;
     if (error) return <p>Error loading character details!</p>;
+    if (!data || !data.character) return <p>No character data available.</p>;
 
     return (
         <div data-testid="character-details" style={{ padding: '20px', fontFamily: 'sans-serif' }}>
