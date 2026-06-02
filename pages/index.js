@@ -85,6 +85,7 @@ export default function CharacterList() {
                 margin: '30px 0' 
             }}>
                 <button 
+                    data-testid="previous-button"
                     disabled={!info.prev} 
                     onClick={() => handlePageChange(page - 1)}
                     style={{ 
@@ -96,6 +97,7 @@ export default function CharacterList() {
                 </button>
                 <span>Page {page} of {info.pages}</span>
                 <button 
+                    data-testid="next-button"
                     disabled={!info.next} 
                     onClick={() => handlePageChange(page + 1)}
                     style={{ 

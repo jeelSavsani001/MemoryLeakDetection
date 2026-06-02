@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { gql } from '@apollo/client';
 import { useQuery } from '@apollo/client/react';
+import { useState, useEffect } from 'react';
 
 const GET_CHARACTER_DETAILS = gql`
     query GetCharacterDetails($id: ID!) {
@@ -15,6 +16,16 @@ const GET_CHARACTER_DETAILS = gql`
 `;
 
 export default function DetailsPage() {
+    const [leak, setLeak] = useState(0);
+
+    useEffect(() => {
+        // cause a leak
+        const onResize = () => {
+            setLeak(prev => prev + 1);
+        };
+        window.addEventListener('resize', onResize);
+    }, []);
+ 
     const router = useRouter();
     const { id } = router.query;
 
@@ -27,7 +38,7 @@ export default function DetailsPage() {
     if (error) return <p>Error loading character details!</p>;
 
     return (
-        <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+        <div data-testid="character-details" style={{ padding: '20px', fontFamily: 'sans-serif' }}>
             <h1>{data.character.name}</h1>
             <p><strong>Status:</strong> {data.character.status}</p>
             <p><strong>Species:</strong> {data.character.species}</p>
