@@ -20,7 +20,10 @@ export default function DetailsPage() {
 
     useEffect(() => {
         // cause a leak
+
+        const hugePayload = new Array(500000).fill('--hahahahhahahha--').join('');
         const onResize = () => {
+            console.log("reference the payload inside the lexical context", hugePayload.substring(0, 10));
             setLeak(prev => prev + 1);
         };
         window.addEventListener('resize', onResize);
