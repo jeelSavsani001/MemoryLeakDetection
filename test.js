@@ -1,72 +1,60 @@
 const scenario = {
   // 1. Start at the home/listing page
-  // url: () => 'http://localhost:3000',
-  url: () => 'memory-leak-detection-git-main-jeelsavsani001s-projects.vercel.app',
-
-  // Pre-test setup: Inject cookies to bypass Vercel Deployment Protection
-  setup: async (page) => {
-    const domain = 'memory-leak-detection-git-main-jeelsavsani001s-projects.vercel.app';
-    
-    // Replace 'YOUR_COOKIE_VALUE' with the value of '_vercel_jwt' from your browser
-    await page.setCookie({
-      name: '_vercel_jwt',
-      value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJTSWFyRDdWcjdSTHBLUnBTbHA1YWFDZm4iLCJpYXQiOjE3ODAzNzUzODgsInVzZXJuYW1lIjoiamVlbHNhdnNhbmkwMDEiLCJvd25lcklkIjoidGVhbV9WOGZSaXBKcm9tcm9pZ2RuVjhuWjhtYTciLCJhdWQiOiJtZW1vcnktbGVhay1kZXRlY3Rpb24tZ2l0LW1haW4tamVlbHNhdnNhbmkwMDFzLXByb2plY3RzLnZlcmNlbC5hcHAiLCJzdWIiOiJzc28tcHJvdGVjdGlvbiJ9.C9DMfCJp5CdSSa-b-2DaGQZKzFyDnpL8O7f7WXLR6XE', 
-      domain: domain,
-      path: '/',
-      httpOnly: true,
-      secure: true,
-      sameSite: 'Lax',
-    });
-
-    console.log('Authentication cookie injected.');
-  },
+  url: () => 'https://memory-leak-detection-ruby.vercel.app/',
 
   // 2. Loop through multiple distinct characters to trigger separate cache entries
   action: async (page) => {
-    const characterButtons = [
-      '[data-testid="details-btn-1"]',
-      '[data-testid="details-btn-2"]',
-      '[data-testid="details-btn-3"]',
-    ];
+    // Wait for the list page to be ready by waiting for a button containing 'Details'
+    await page.waitForFunction(() => 
+      Array.from(document.querySelectorAll('button')).some(b => b.innerText.includes('Details')),
+      { timeout: 15000 }
+    );
 
-    // Wait for the list page to be ready
-    await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 15000 });
+    const clickDetailsButton = async (index) => {
+      await page.evaluate((idx) => {
+        const btns = Array.from(document.querySelectorAll('button'))
+          .filter(b => b.innerText.includes('Details'));
+        if (btns[idx]) {
+          btns[idx].click();
+        } else {
+          throw new Error(`Details button at index ${idx} not found`);
+        }
+      }, index);
+    };
 
-    for (const btnSelector of characterButtons) {
-    //   console.log(`Processing ${btnSelector}...`);
+    const waitForList = async () => {
+        await page.waitForFunction(() => 
+          Array.from(document.querySelectorAll('button')).some(b => b.innerText.includes('Details')),
+          { timeout: 15000 }
+        );
+    };
+
+    // Iterate through first few characters to trigger separate cache entries
+    for (let i = 0; i < 3; i++) {
+      await clickDetailsButton(i);
       
-      await page.waitForSelector(btnSelector, { visible: true });
-      
-    //   console.log(`Clicking ${btnSelector} via evaluate...`);
-      await page.evaluate((sel) => {
-        const btn = document.querySelector(sel);
-        if (btn) btn.click();
-        else throw new Error(`Button not found: ${sel}`);
-      }, btnSelector);
-      
-    //   console.log(`Waiting for details page h1...`);
+      // Wait for details page to load
       await page.waitForSelector('h1', { timeout: 15000 }); 
       
-    //   console.log(`Going back to list page...`);
+      // Navigate back to the list page
       await page.goBack();
       
-      await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 15000 });
+      // Ensure we are back on the list page
+      await waitForList();
     }
     
-    // console.log(`Performing final click for target state...`);
-    await page.waitForSelector('[data-testid="details-btn-1"]', { visible: true });
-    await page.evaluate(() => document.querySelector('[data-testid="details-btn-1"]').click());
+    // Perform final click to reach the "Target" state (a details page)
+    await clickDetailsButton(0);
     await page.waitForSelector('h1', { timeout: 15000 });
-    
-    // console.log(`Action phase complete.`);
   },
 
-  // 3. Return to the baseline list page
+  // 3. Return to the baseline list page (Final state)
   back: async (page) => {
-    // console.log(`Back phase starting...`);
     await page.goBack();
-    await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 15000 });
-    // console.log(`Back phase complete.`);
+    await page.waitForFunction(() => 
+      Array.from(document.querySelectorAll('button')).some(b => b.innerText.includes('Details')),
+      { timeout: 15000 }
+    );
   },
 };
 

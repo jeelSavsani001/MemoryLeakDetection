@@ -95,3 +95,166 @@ page-load[13.3MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]
 interaction fail, making 1 more attempt(s)...
 Use `memlab help` or `memlab <COMMAND> -h` to get helper text
 interaction fail
+Warming up web server: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 0/100
+Protocol error (Page.navigate): Cannot navigate to invalid URL
+Warming up web server: |█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 16/100
+Protocol error (Page.navigate): Cannot navigate to invalid URL
+Warming up web server: |██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 33/100
+Protocol error (Page.navigate): Cannot navigate to invalid URL
+Warming up web server: |████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 50/100
+Protocol error (Page.navigate): Cannot navigate to invalid URL
+Warming up web server: |█████████████████████████████████████░░░░░░░░░░░░░░░░░░░| 66/100
+Protocol error (Page.navigate): Cannot navigate to invalid URL
+Warming up web server: |██████████████████████████████████████████████░░░░░░░░░░| 83/100
+Protocol error (Page.navigate): Cannot navigate to invalid URL
+page-load(baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Connecting to web server...
+interaction fail, making 2 more attempt(s)...
+Connecting to web server...
+interaction fail, making 1 more attempt(s)...
+Connecting to web server...
+Use `memlab help` or `memlab <COMMAND> -h` to get helper text
+interaction fail
+Warming up web server: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 0/100
+Warming up web server: |█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 16/100
+Warming up web server: |██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 33/100
+Warming up web server: |████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 50/100
+Warming up web server: |█████████████████████████████████████░░░░░░░░░░░░░░░░░░░| 66/100
+Warming up web server: |██████████████████████████████████████████████░░░░░░░░░░| 83/100
+page-load(baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Connecting to web server...
+Check timeout '/' set wait: 2000ms
+running a full GC...
+Heap size: 2.6MB
+taking screenshot...
+heap snapshot 0% complete
+heap snapshot 15% complete
+heap snapshot 31% complete
+heap snapshot 47% complete
+heap snapshot 63% complete
+heap snapshot 79% complete
+heap snapshot 95% complete
+heap snapshot 99% complete
+heap snapshot 100% complete
+heap snapshot 100% complete
+snapshot saved to disk
+
+page-load[2.6MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+interaction fail, making 1 more attempt(s)...
+Use `memlab help` or `memlab <COMMAND> -h` to get helper text
+interaction fail
+Warming up web server: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 0/100
+Warming up web server: |█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 16/100
+Warming up web server: |██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 33/100
+Warming up web server: |████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 50/100
+Warming up web server: |█████████████████████████████████████░░░░░░░░░░░░░░░░░░░| 66/100
+Warming up web server: |██████████████████████████████████████████████░░░░░░░░░░| 83/100
+page-load(baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Connecting to web server...
+Check timeout '/' set wait: 2000ms
+running a full GC...
+Heap size: 2.6MB
+taking screenshot...
+heap snapshot 0% complete
+heap snapshot 15% complete
+heap snapshot 31% complete
+heap snapshot 47% complete
+heap snapshot 63% complete
+heap snapshot 79% complete
+heap snapshot 95% complete
+heap snapshot 99% complete
+heap snapshot 100% complete
+heap snapshot 100% complete
+snapshot saved to disk
+
+page-load[2.6MB](baseline)[s1] > action-on-page(target)[s2] > revert(final)[s3]  
+Check timeout '/details/1' set wait: 2000ms
+running a full GC...
+Heap size: 3.3MB
+taking screenshot...
+heap snapshot 0% complete
+heap snapshot 14% complete
+heap snapshot 28% complete
+heap snapshot 42% complete
+heap snapshot 57% complete
+heap snapshot 71% complete
+heap snapshot 85% complete
+heap snapshot 99% complete
+heap snapshot 99% complete
+heap snapshot 100% complete
+heap snapshot 100% complete
+snapshot saved to disk
+
+page-load[2.6MB](baseline)[s1] > action-on-page[3.3MB](target)[s2] > revert(final)[s3]  
+Check timeout '/' set wait: 2000ms
+running a full GC...
+Heap size: 3.5MB
+taking screenshot...
+heap snapshot 0% complete
+heap snapshot 14% complete
+heap snapshot 28% complete
+heap snapshot 42% complete
+heap snapshot 56% complete
+heap snapshot 70% complete
+heap snapshot 84% complete
+heap snapshot 98% complete
+heap snapshot 99% complete
+heap snapshot 100% complete
+heap snapshot 100% complete
+snapshot saved to disk
+
+page-load[2.6MB](baseline)[s1] > action-on-page[3.3MB](target)[s2] > revert[3.5MB](final)[s3]  
+
+Memory usage across all steps:
+4.0 _________
+3.6 _________
+3.3 ______▄▄_
+2.9 ___  _  _
+2.5 ___  _  _
+2.1   _  _  _
+1.8   _  _  _
+1.4   _  _  _
+1.0   _  _  _
+    1  2  3  
+
+lightweight parsing /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/cur/s1.heapsnapshot ...
+lightweight parsing /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/cur/s2.heapsnapshot ...
+parsing /Users/jeel.savsani/Desktop/untitled folder/MemoryLeakDetection/results/data/cur/s3.heapsnapshot ...
+calculating basic meta info...
+building reference index...
+building referrers index...
+propagating detachedness state...
+building node index...
+building location index...
+building extra meta info...
+identifying snapshot engine...
+annotating shortest path for all nodes
+calculating dominators and retained sizes .
+calculating dominators and retained sizes ..
+calculating dominators and retained sizes ...
+calculating dominators and retained sizes .
+calculating dominators and retained sizes ..
+calculating dominators and retained sizes ...
+marking all detached Fiber nodes...
+marking alternate Fiber nodes...
+progress: 0 / 76 (0%)
+Clustering leak traces
+clustering trace: 0 / 76
+clustering trace: 17 / 76
+clustering trace: 34 / 76
+clustering trace: 51 / 76
+clustering trace: 68 / 76
+
+MemLab found 1 leak(s)
+Number of clusters loaded: 0
+Diffing clusters
+clustering trace: 0 / 1
+
+
+--Similar leaks in this run: 76--
+--Retained size of leaked objects: 14.2KB--
+[(GC roots)] (synthetic) @3 [105.3KB]
+  --10 (element)--->  [(Global handles)] (synthetic) @23 [42.2KB]
+  --80 / DevTools console (internal)--->  [Detached <h1> (native) @156335 [3.5KB]
+  --4 (element)--->  [Detached Text] (native) @5474 [80 bytes]
+

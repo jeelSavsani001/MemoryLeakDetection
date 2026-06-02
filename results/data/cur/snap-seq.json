@@ -1,33 +1,39 @@
 [
   {
     "name": "page-load",
-    "url": "https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/",
+    "url": "https://memory-leak-detection-ruby.vercel.app/",
     "interactions": [],
     "snapshot": true,
     "screenshot": true,
     "type": "baseline",
-    "idx": 1
+    "idx": 1,
+    "JSHeapUsedSize": 2695324,
+    "metrics": {}
   },
   {
     "name": "action-on-page",
-    "url": "https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/",
+    "url": "https://memory-leak-detection-ruby.vercel.app/",
     "interactions": [
       null
     ],
     "snapshot": true,
     "screenshot": true,
     "type": "target",
-    "idx": 2
+    "idx": 2,
+    "JSHeapUsedSize": 3366788,
+    "metrics": {}
   },
   {
     "name": "revert",
-    "url": "https://memory-leak-detection-hv3rtg6g5-jeelsavsani001s-projects.vercel.app/",
+    "url": "https://memory-leak-detection-ruby.vercel.app/",
     "interactions": [
       null
     ],
     "snapshot": true,
     "screenshot": true,
     "type": "final",
-    "idx": 3
+    "idx": 3,
+    "JSHeapUsedSize": 3505976,
+    "metrics": {}
   }
 ]
