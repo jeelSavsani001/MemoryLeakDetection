@@ -21,6 +21,9 @@ const nextConfig = {
         'react-dom$': 'react-dom/profiling',
         // 'scheduler/tracing': 'scheduler/tracing-profiling',
       };
+
+      // Disable minification for production builds
+      config.optimization.minimize = false;
     }
     return config;
   },
