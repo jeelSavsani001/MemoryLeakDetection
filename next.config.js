@@ -25,6 +25,10 @@ const nextConfig = {
       // Disable minification for production builds
       config.optimization.minimize = false;
       config.optimization.minimizer = [];
+
+      // to help Webpack stabilize module IDs in non-minified builds
+      config.optimization.moduleIds = 'named';
+      config.optimization.chunkIds = 'named';
     }
     return config;
   },
