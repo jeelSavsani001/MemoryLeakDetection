@@ -12,7 +12,7 @@ const nextConfig = {
   images: {
     unoptimized: true, 
   },
-  turbopack: {},
+  // turbopack: {},
   webpack: (config, { dev, isServer }) => {
     // This forces the React Profiler to stay enabled in your deployed production build
     if (!dev && !isServer) {
@@ -24,6 +24,7 @@ const nextConfig = {
 
       // Disable minification for production builds
       config.optimization.minimize = false;
+      config.optimization.minimizer = [];
     }
     return config;
   },
