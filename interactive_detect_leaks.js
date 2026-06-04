@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 const { findLeaksBySnapshotFilePaths } = require('@memlab/api');
+const { config } = require('@memlab/core');
 const { leakFilter, _collected } = require('./memlab_impl/filters/dev_filter');
 
 const SNAPSHOT_DIR = path.resolve(__dirname, 'interactive_snapshots');
@@ -75,10 +76,11 @@ async function runAnalysis(baselinePath, targetPath, finalPath, url) {
   _collected.length = 0;
 
   try {
+    // Register the leak filter correctly via config.scenario
+    config.scenario = { leakFilter };
+    
     // Memlab analysis: Baseline, Target, Final
-    const leaks = await findLeaksBySnapshotFilePaths(baselinePath, targetPath, finalPath, {
-      leakFilter
-    });
+    const leaks = await findLeaksBySnapshotFilePaths(baselinePath, targetPath, finalPath);
 
     console.log(_collected.length);
     console.log('something is written');
