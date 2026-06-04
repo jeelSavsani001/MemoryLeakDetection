@@ -20,10 +20,60 @@ function formatSize(bytes) {
 let urlStack = [];
 let baseStack = [];
 let targetStack = [];
+let analyzingPaths = new Set();
 let latestSnapshot = null;
 let currentUrl = null;
 let browser, page, client;
 let isProcessing = false;
+
+/**
+ * Cleanup snapshots that are not in the current stacks, not being analyzed, and not the latest.
+ */
+function cleanupSnapshots() {
+  const activeSnapshots = new Set([
+    ...baseStack,
+    ...targetStack,
+    latestSnapshot,
+    ...analyzingPaths
+  ].filter(Boolean));
+
+  try {
+    const files = fs.readdirSync(SNAPSHOT_DIR);
+    for (const file of files) {
+      const fullPath = path.join(SNAPSHOT_DIR, file);
+      if (!activeSnapshots.has(fullPath)) {
+        fs.unlinkSync(fullPath);
+      }
+    }
+  } catch (err) {
+    console.error(`[CLEANUP] Error during snapshot cleanup: ${err.message}`);
+  }
+}
+
+/**
+ * Remove all snapshots and the snapshot directory.
+ */
+function fullCleanup() {
+  console.log('\n[CLEANUP] Cleaning up all snapshots...');
+  try {
+    if (fs.existsSync(SNAPSHOT_DIR)) {
+      // Use rmSync with recursive and force for modern Node.js
+      // Fallback for older Node.js versions
+      if (fs.rmSync) {
+        fs.rmSync(SNAPSHOT_DIR, { recursive: true, force: true });
+      } else {
+        const files = fs.readdirSync(SNAPSHOT_DIR);
+        for (const file of files) {
+          fs.unlinkSync(path.join(SNAPSHOT_DIR, file));
+        }
+        fs.rmdirSync(SNAPSHOT_DIR);
+      }
+    }
+    console.log('[CLEANUP] Done.');
+  } catch (err) {
+    console.error(`[CLEANUP] Final cleanup failed: ${err.message}`);
+  }
+}
 
 /**
  * Normalizes URL to use as a key and filename component
@@ -72,6 +122,11 @@ async function takeSnapshot(url, type) {
 async function runAnalysis(baselinePath, targetPath, finalPath, url) {
   console.log(`\n--- Analyzing Leak for Scene: ${url} ---`);
   
+  // Track snapshots currently being analyzed to prevent cleanup
+  analyzingPaths.add(baselinePath);
+  analyzingPaths.add(targetPath);
+  analyzingPaths.add(finalPath);
+
   // Clear stale data from leak filter collection
   _collected.length = 0;
 
@@ -123,6 +178,12 @@ async function runAnalysis(baselinePath, targetPath, finalPath, url) {
     }
   } catch (err) {
     console.error(`Analysis failed for ${url}:`, err.message);
+  } finally {
+    // Clean up analysis tracking and trigger file cleanup
+    analyzingPaths.delete(baselinePath);
+    analyzingPaths.delete(targetPath);
+    analyzingPaths.delete(finalPath);
+    cleanupSnapshots();
   }
   console.log('-------------------------------------------\n');
 }
@@ -145,7 +206,7 @@ async function handleUrlChange(rawUrl) {
       
       console.log(`[BACK] Navigated back to ${url} from ${leakedUrl}`);
       
-      // Run analysis
+      // Run analysis (async)
       runAnalysis(baselinePath, targetPath, finalPath, leakedUrl);
       
       // Update latest snapshot for the current page (P2)
@@ -168,12 +229,22 @@ async function handleUrlChange(rawUrl) {
     console.error(`Error during URL change handling for ${url}:`, err);
   } finally {
     isProcessing = false;
+    cleanupSnapshots();
   }
 }
 
 async function start() {
   const startUrl = process.argv[2] || 'https://memory-leak-detection-git-develop-jeelsavsani001s-projects.vercel.app/';
   
+  // Register cleanup on termination
+  process.on('exit', fullCleanup);
+  process.on('SIGINT', () => { fullCleanup(); process.exit(); });
+  process.on('SIGTERM', () => { fullCleanup(); process.exit(); });
+  process.on('uncaughtException', (err) => {
+    console.error('Uncaught Exception:', err);
+    fullCleanup();
+    process.exit(1);
+  });
   console.log('Launching browser...');
   browser = await puppeteer.launch({ 
     headless: false,
