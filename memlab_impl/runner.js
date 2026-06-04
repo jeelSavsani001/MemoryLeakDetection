@@ -26,7 +26,7 @@ const { run } = require('@memlab/api');
 // in Node's cache.  _collected is then the exact same array that leakFilter
 // pushes to during the memlab run.
 const scenario = require('./scenarios/details_scenario');
-const { _collected } = require('./filters/leak_filter');
+const { _collected } = require('./filters/dev_filter');
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const SRC_DIR = path.join(PROJECT_ROOT, 'pages');

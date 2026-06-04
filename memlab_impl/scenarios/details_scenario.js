@@ -1,24 +1,21 @@
 'use strict';
 
-const { leakFilter } = require('../filters/leak_filter');
+const { leakFilter } = require('../filters/dev_filter');
 
 /**
- * Step 1 — Baseline snapshot (SBP)
+ * Step 1 — Baseline snapshot (S1)
  */
 function url() {
   return 'http://localhost:3000';
 }
 
 /**
- * Step 2 — Action snapshot (STP)
+ * Step 2 — Target snapshot (S2)
+ * Perform interactions and manually return to the baseline state.
  */
 async function action(page) {
-  // console.log('Action: Waiting for initial character buttons...');
-
-  // Wait for list page - increased timeout to 30s
   try {
     await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 30000 });
-    // console.log('Action: Found character buttons.');
   } catch (err) {
     console.error('Action Error: Initial character buttons not found within 30s');
     throw err;
@@ -30,7 +27,6 @@ async function action(page) {
   ];
 
   for (const btnSelector of characterButtons) {
-    // console.log(`Action: Clicking ${btnSelector}...`);
     await page.waitForSelector(btnSelector, { visible: true, timeout: 10000 });
 
     await page.evaluate((sel) => {
@@ -39,38 +35,27 @@ async function action(page) {
       else throw new Error(`Button not found during execution: ${sel}`);
     }, btnSelector);
 
-    // console.log(`Action: Waiting for details page (h1)...`);
-    // Wait for details page
     await page.waitForSelector('h1', { timeout: 15000 });
 
-    // console.log(`Action: Navigating back to list...`);
-    // Go back to list
+    // Return to list page
     await page.goBack();
     await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 15000 });
   }
 
-  // console.log('Action: Final navigation to target state...');
-  // Final navigation to target state
+  // Final check to ensure we are back at baseline before S2 is taken
   await page.waitForSelector('[data-testid="details-btn-1"]', { visible: true, timeout: 10000 });
-
-  await page.evaluate(() => {
-    document.querySelector('[data-testid="details-btn-1"]').click();
-  });
-
-  await page.waitForSelector('h1', { timeout: 15000 });
-  console.log('Action complete.');
+  console.log('Action complete (manually returned to baseline).');
 }
 
 /**
- * Step 3 — Final snapshot (SFP)
- * Return to baseline
+ * Step 3 — Final snapshot (S3)
+ * We provide a no-op function so memlab doesn't trigger a page reload
+ * by trying to "revert" automatically.
  */
 async function back(page) {
-  // console.log('Back: Reverting to baseline...');
-  await page.waitForSelector('h1', { timeout: 15000 });
-  await page.goBack();
-  await page.waitForSelector('[data-testid="details-btn-1"]', { timeout: 15000 });
-  // console.log('Back complete.');
+  // Do nothing. We are already at the baseline state.
+  // This prevents memlab from using its default 'revert' which causes reloads.
+  console.log('Back phase: No-op (already at baseline).');
 }
 
 module.exports = { url, action, back, leakFilter };

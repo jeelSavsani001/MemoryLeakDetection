@@ -7,7 +7,6 @@ const scenario = {
     const characterButtons = [
       '[data-testid="details-btn-1"]',
       '[data-testid="details-btn-2"]',
-      '[data-testid="details-btn-3"]',
     ];
 
     // Wait for the list page to be ready

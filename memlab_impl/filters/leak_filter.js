@@ -142,6 +142,7 @@ module.exports = {
     if (!info.componentName) return false;
 
     _collected.push(info);
+    console.log('🚨 BINGO!');
     return true;
   },
 
