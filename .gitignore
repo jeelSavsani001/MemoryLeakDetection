@@ -24,3 +24,7 @@ coverage/
 
 # output 
 memlab_leak_report.txt
+
+# generated files
+detected_leaks.json
+leak_mapping_report.json

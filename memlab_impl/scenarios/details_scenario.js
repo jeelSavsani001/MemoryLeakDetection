@@ -1,7 +1,10 @@
 // memlab/scenarios/paginationScenario.js
+const { leakFilter } = require('../filters/dev_filter');
 
 module.exports = {
   url: () => "https://memory-leak-detection-ruby.vercel.app/",
+
+  leakFilter,
 
   action: async (page) => {
     console.log("👉 Waiting for button to render...");
