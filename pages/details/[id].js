@@ -16,17 +16,24 @@ const GET_CHARACTER_DETAILS = gql`
 `;
 
 export default function DetailsPage() {
-    const [leak, setLeak] = useState(0);
+    // const [leak, setLeak] = useState(0);
 
     useEffect(() => {
         // cause a leak
 
         const hugePayload = new Array(500000).fill('--hahahahhahahha--').join('');
-        const onResize = () => {
+        // const onResize = () => {
+        //     console.log("reference the payload inside the lexical context", hugePayload.substring(0, 10));
+        //     // setLeak(prev => prev + 1);
+        // };
+        // window.addEventListener('resize', onResize);
+        const onTimer = () => {
             console.log("reference the payload inside the lexical context", hugePayload.substring(0, 10));
-            setLeak(prev => prev + 1);
         };
-        window.addEventListener('resize', onResize);
+        const timerId = setInterval(onTimer, 16000);
+        // return () => {
+        //     window.removeEventListener('resize', onResize);
+        // };
     }, []);
  
     const router = useRouter();
