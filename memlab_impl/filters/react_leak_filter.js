@@ -231,7 +231,23 @@ module.exports = {
     }
     
     return false;
-  }
+  },
+  retainerReferenceFilter(edge, _snapshot, _isReferenceUsedByDefault) {
+    if (typeof edge.name_or_index === 'string') {
+      const name = edge.name_or_index;
+      if (
+        name.includes('DevTools console') ||
+        name === '_nextjsDevtoolsStyleCache' ||
+        name === 'deletions' || // React internal deletions tracking array
+        name === '_debugOwner' || // React DEV-only pointer to parent component
+        name === 'alternate' ||   // PERMANENT FIX 3: Ignore React's work-in-progress tree caching
+        name.startsWith('__reactFiber$') // Ignore DOM-to-React Fiber bindings (Next.js route cache)
+      ) {
+        return false;
+      }
+    }
+    return _isReferenceUsedByDefault;
+  },
 };
 
 // --- LOCAL DEV HELPERS ---
