@@ -141,6 +141,32 @@ module.exports = {
     // Only report fibers where we successfully resolved a component name
     if (!info.componentName) return false;
 
+    // Keep iterating up till dominator node and see everytime if it has any dev tools edges.
+    // If yes, then remove it (return false).
+    let current = node;
+    const visited = new Set();
+    while (current && !visited.has(current.id)) {
+      visited.add(current.id);
+
+      // Check incoming edges (referrers)
+      for (const edge of current.referrers) {
+        if (typeof edge.name_or_index === 'string') {
+          const name = edge.name_or_index;
+          if (
+            name.includes('DevTools console')
+            || name === '_nextjsDevtoolsStyleCache'
+            || name === 'deletions'
+            || name === '_debugOwner'
+          ) {
+            return false; // Found a dev tools / internal React reference, so reject this leak
+          }
+        }
+      }
+
+      // Move up to the dominator node
+      current = current.dominatorNode;
+    }
+
     _collected.push(info);
     console.log('🚨 BINGO!');
     return true;
@@ -148,4 +174,22 @@ module.exports = {
 
   // Exported so runner.js can call it for standalone post-processing if needed
   extractFiberInfo,
+
+  /**
+   * Filter out references from the DevTools console, Next.js internals, and React DEV arrays.
+   */
+  retainerReferenceFilter(edge, _snapshot, _isReferenceUsedByDefault) {
+    if (typeof edge.name_or_index === 'string') {
+      const name = edge.name_or_index;
+      if (
+        name.includes('DevTools console') ||
+        name === '_nextjsDevtoolsStyleCache' ||
+        name === 'deletions' || // React internal deletions tracking array
+        name === '_debugOwner'  // React DEV-only pointer to parent component
+      ) {
+        return false;
+      }
+    }
+    return _isReferenceUsedByDefault;
+  },
 };

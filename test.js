@@ -1,5 +1,5 @@
 // test.js
-const { leakFilter } = require('./memlab_impl/filters/leak_filter');
+const { leakFilter, retainerReferenceFilter } = require('./memlab_impl/filters/leak_filter');
 
 function url() {
   return "http://localhost:3000/";
@@ -32,4 +32,4 @@ async function back(page) {
   await page.evaluate(() => new Promise((resolve) => setTimeout(resolve, 1000)));
 }
 
-module.exports = { url, action, back, leakFilter };
+module.exports = { url, action, back, leakFilter, retainerReferenceFilter };
