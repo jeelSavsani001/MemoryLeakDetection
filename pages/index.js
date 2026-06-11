@@ -112,3 +112,4 @@ export default function CharacterList() {
         </div>
     );
 }
+CharacterList.displayName = 'CharacterList';
