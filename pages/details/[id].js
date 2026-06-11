@@ -109,3 +109,4 @@ export default function DetailsPage() {
         </div>
     );
 }
+DetailsPage.displayName = 'DetailsPage';
