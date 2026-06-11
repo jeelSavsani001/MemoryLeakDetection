@@ -12,3 +12,4 @@ export default function CardLayout({id, name, onCardClick}) {
         </div>
     );
 }
+CardLayout.displayName = 'CardLayout';
