@@ -6,3 +6,4 @@ export default function SafeChild() {
     </div>
   );
 }
+SafeChild.displayName = 'SafeChild';
