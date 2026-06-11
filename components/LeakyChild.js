@@ -26,3 +26,4 @@ export default function LeakyChild() {
     </div>
   );
 }
+LeakyChild.displayName = 'LeakyChild';
