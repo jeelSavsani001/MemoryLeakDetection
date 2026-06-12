@@ -98,6 +98,13 @@ export default function DetailsPage() {
                     >
                         Unmount Both (Trigger Leak)
                     </button>
+                    <button 
+                        data-testid="go-to-status-btn"
+                        onClick={() => router.push(`/status?from=${id}`)} 
+                        style={{ padding: '10px 15px', cursor: 'pointer', backgroundColor: '#e0e0e0', border: '1px solid #ccc' }}
+                    >
+                        Go to Status Page
+                    </button>
                 </div>
 
                 <div style={{ marginTop: '20px', minHeight: '150px' }}>
@@ -109,4 +116,3 @@ export default function DetailsPage() {
         </div>
     );
 }
-DetailsPage.displayName = 'DetailsPage';
