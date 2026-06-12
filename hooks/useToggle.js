@@ -29,4 +29,4 @@ export default function useToggle(initialValue = false) {
 
     return [value, toggle];
 }
-useToggle.displayName = 'useToggleHook';
+useToggle.displayName = 'useToggle';
