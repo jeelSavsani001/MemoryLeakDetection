@@ -43,3 +43,4 @@ export default function StatusPage() {
         </div>
     );
 }
+StatusPage.displayName = 'StatusPage';
