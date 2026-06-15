@@ -22,10 +22,8 @@ const nextConfig = {
       properties: ['^displayName$']
     } : false,
   },
-  // Ensure the standard production build is used without forcing profiling
-  webpack: (config, { dev, isServer }) => {
-    return config;
-  },
+  // Set empty turbopack config to acknowledge we are using Turbopack
+  turbopack: {},
 };
 
 module.exports = nextConfig;
