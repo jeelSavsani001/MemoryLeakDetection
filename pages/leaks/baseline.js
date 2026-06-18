@@ -14,3 +14,4 @@ export default function BaselinePage() {
         </div>
     );
 }
+BaselinePage.displayName = 'BaselinePage';
