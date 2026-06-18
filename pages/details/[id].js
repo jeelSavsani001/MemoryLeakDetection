@@ -105,6 +105,13 @@ export default function DetailsPage() {
                     >
                         Go to Status Page
                     </button>
+                    <button 
+                        data-testid="back-to-home-btn"
+                        onClick={() => router.push('/')}
+                        style={{ padding: '10px 15px', cursor: 'pointer' }}
+                    >
+                        Go back to Home page
+                    </button>
                 </div>
 
                 <div style={{ marginTop: '20px', minHeight: '150px' }}>
