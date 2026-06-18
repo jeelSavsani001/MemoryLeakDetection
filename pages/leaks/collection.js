@@ -25,3 +25,4 @@ export default function CollectionLeakPage() {
     </div>
   );
 }
+CollectionLeakPage.displayName = 'CollectionLeakPage';
